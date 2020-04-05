@@ -9,7 +9,7 @@ author_profile: true
 Submitted
 ------
 - **J. Chen** and Q. Zhu, "Contract-Based Data Pricing Mechanism for Sensing as a Service in the Internet of Things," under revision.
-- **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," under revision. 
+- **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," submitted.
 - **J. Chen** and Q. Zhu, "A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control for Wind Energy Systems," submitted. 
 - **J. Chen**, R. Zhang, and Q. Zhu, "Optimal Quarantining Strategy for Interdependent Epidemics Spreading over Complex Networks," under revision. 
 - **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Incentive Design for Risk Management with Stochastic Markov Jump Dynamic Systems under Asymmetric Information," submitted.
