@@ -14,7 +14,7 @@ Contact: 10th Floor, 370 Jay Street, Brooklyn, NY 11201<br/>
 Email: jc6412@nyu.edu
 
 Research Interests
-======
+------
 - Cyber-Physical Systems
 - Security and Resilience
 - Game and Decision Theory
@@ -23,7 +23,7 @@ Research Interests
 - Smart Grids
 
 Latest News
-======
+------
 - Dec. 2019: Our paper "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "Dynamic Games for Secure and Resilient Control System Design" will be published in National Science Review (NSR).
 - I am serving as the Web Chair of The 10th International Conference on Network Games, Control and Optimization (NETGCOOP), which will be in Corsica, France on March 18-20, 2020.  Please consider submitting your paper!
