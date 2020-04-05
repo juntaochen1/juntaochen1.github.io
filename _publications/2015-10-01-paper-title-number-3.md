@@ -1,5 +1,5 @@
 ---
-title: "Journal Papers"
+title: "Paper Title Number 3"
 collection: publications
 permalink:
 excerpt:
