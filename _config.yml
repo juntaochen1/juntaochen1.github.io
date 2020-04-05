@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Juntao Chen's Webpage"
+title                    : "Juntao Chen's Homepage"
 title_separator          : "-"
 name                     : &name "Juntao Chen"
 description              : &description "personal description"
