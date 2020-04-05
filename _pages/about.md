@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my homepage. I am a final-year PhD student in Electrical Engineering at [NYU Tandon School of Engineering] (https://engineering.nyu.edu/). I am a research assistant in the [Laboratory for Agile and Resilient Complex Systems (LARX)] (http://engineering.nyu.edu/larx/) directed by [Prof. Quanyan Zhu] (https://wp.nyu.edu/quanyan/), and a member of [NYU Center for Cybersecurity (CCS)] (http://cyber.nyu.edu/).
+Hello, welcome to my homepage. I am a final-year PhD student in Electrical Engineering at [NYU Tandon School of Engineering](https://engineering.nyu.edu/). I am a research assistant in the [Laboratory for Agile and Resilient Complex Systems (LARX)](http://engineering.nyu.edu/larx/) directed by [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), and a member of [NYU Center for Cybersecurity (CCS)](http://cyber.nyu.edu/).
 
 Contact: 10th Floor, 370 Jay Street, Brooklyn, NY 11201
 
@@ -25,7 +25,7 @@ Research Interests
 
 Latest News
 ======
-- Dec. 2019: Our paper "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach" will be published in IEEE Transactions on Control of Network Systems (TCNS). [arXiv]
+- Dec. 2019: Our paper "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "Dynamic Games for Secure and Resilient Control System Design" will be published in National Science Review (NSR).
 - I am serving as the Web Chair of The 10th International Conference on Network Games, Control and Optimization (NETGCOOP), which will be in Corsica, France on March 18-20, 2020.  Please consider submitting your paper!
 - Nov. 2019: I attended the NSF CPS PI meeting in Alexandria, VA, and presented a poster on CPS security and resilience.
