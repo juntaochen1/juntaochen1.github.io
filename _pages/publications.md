@@ -5,8 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+
 Submitted
-======
+------
 - **J. Chen** and Q. Zhu, "Contract-Based Data Pricing Mechanism for Sensing as a Service in the Internet of Things," under revision.
 - **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," under revision. 
 - **J. Chen** and Q. Zhu, "A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control for Wind Energy Systems," submitted. 
@@ -16,15 +17,15 @@ Submitted
 - G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," submitted.
 
 Book
-======
+------
 1. **J. Chen** and Q. Zhu,  A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design, Springer, 2020.
 
 Book Chapters
-======
+------
 1. L. Huang, **J. Chen** and Q. Zhu, Factored Markov Game Theory for Secure Interdependent Infrastructure Networks, book chapter in Game Theory for Security Risk Management, Springer, 2018.
 
 Journal Papers
-======
+------
 1. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network," IEEE Transactions on Information Forensics and Security, vol. 15, pp. 462 - 474, 2020. [PDF](https://arxiv.org/pdf/1906.07185.pdf)
 1. **J. Chen**, C. Touati and Q. Zhu, "Optimal Secure Design of Two-Layer IoT Network," IEEE Transactions on Control of Network Systems, vol, 7 no 1,  pp. 398 - 409, 2020. [PDF](https://arxiv.org/pdf/1707.07046v2.pdf)
 1. **J. Chen** and Q. Zhu, "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach," IEEE Transactions on Control of Network Systems, accepted, 2019. [PDF](https://arxiv.org/pdf/1912.04082.pdf)
@@ -54,7 +55,7 @@ Conference Papers
 1. **J. Chen**, L. Zhou and Q. Zhu, "Resilient Control Design for Wind Turbines Using Markov Jump Linear System Model with Levy Noise," IEEE International Conference on Smart Grid Communications (SmartGridComm), 2015.
 
 Workshop Abstracts
-======
+------
 1. **J. Chen** and Q. Zhu, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Network," 8th Midwest Workshop on Control and Game Theory (poster), St. Louis, MO, 2019.
 1. **J. Chen**, R. Zhang and Q. Zhu, "Optimal Control of Interdependent Epidemics in Complex Networks," SIAM Workshop on Network Science (oral presentation),  Boston, MA, 2016.
 1. **J. Chen** and Q. Zhu, "Interdependent Network Formation Games," SIAM Workshop on Network Science (poster), Snowbird, Utah, 2015. 
