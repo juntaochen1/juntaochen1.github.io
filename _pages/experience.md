@@ -15,7 +15,7 @@ I was a Teaching Assistant for the following classes:
 
 Visiting Experience
 ------
-- Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: Prof. Tamer Başar, July - August 2019.
+- Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/), July - August 2019.
 
 Invited Talks
 ------
