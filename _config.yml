@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Juntao Chen"
   avatar           : "profile.png"
-  bio              : "PhD Candidate"
+  bio              : "PhD Candidate<br/> New York University"
   location         : "Brooklyn, NY"
   employer         :
   pubmed           :
@@ -263,14 +263,14 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+ # - jekyll-feed
   - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+ # - jekyll-feed
   - jemoji
 
 
