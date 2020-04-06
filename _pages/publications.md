@@ -18,11 +18,11 @@ Submitted
 
 Book
 ------
-1. **J. Chen** and Q. Zhu,  A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design, Springer, 2020.
+1. **J. Chen** and Q. Zhu,  [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430), Springer, 2020.
 
 Book Chapters
 ------
-1. L. Huang, **J. Chen** and Q. Zhu, [Factored Markov Game Theory for Secure Interdependent Infrastructure Networks](https://www.springer.com/gp/book/9783030234430), book chapter in Game Theory for Security Risk Management, Springer, 2018.
+1. L. Huang, **J. Chen** and Q. Zhu, Factored Markov Game Theory for Secure Interdependent Infrastructure Networks, book chapter in Game Theory for Security Risk Management, Springer, 2018.
 
 Journal Papers
 ------
