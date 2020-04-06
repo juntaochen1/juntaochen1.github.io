@@ -1,11 +1,10 @@
 ---
 layout: archive
-title:
+title: Honors and Awards
 permalink: /awards/
 author_profile: true
 ---
 
-Honors and Awards
 ------
 - Dante Youla Award for Graduate Research Excellence, NYU, 2019
 - NSF Travel Grant, NeTS Early Career Workshop, 2019.
