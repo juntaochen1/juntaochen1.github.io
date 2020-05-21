@@ -8,13 +8,15 @@ author_profile: true
 
 Submitted
 ------
-- **J. Chen** and Q. Zhu, "Contract-Based Data Pricing Mechanism for Sensing as a Service in the Internet of Things," under revision.
+/*- **J. Chen** and Q. Zhu, "Contract-Based Data Pricing Mechanism for Sensing as a Service in the Internet of Things," under revision.*/
 - **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," submitted.
 - **J. Chen** and Q. Zhu, "A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control for Wind Energy Systems," submitted. 
-- **J. Chen**, R. Zhang, and Q. Zhu, "Optimal Quarantining Strategy for Interdependent Epidemics Spreading over Complex Networks," under revision. 
+- **J. Chen**, R. Zhang, and Q. Zhu, "Optimal Quarantining Strategy for Interdependent Epidemics Spreading over Complex Networks," under revision.
 - **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Incentive Design for Risk Management with Stochastic Markov Jump Dynamic Systems under Asymmetric Information," submitted.
 - **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks," under revision. [PDF](https://arxiv.org/pdf/1908.04431.pdf)
 - G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," submitted.
+
+
 
 Book
 ------
@@ -59,3 +61,4 @@ Workshop Abstracts
 1. **J. Chen** and Q. Zhu, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Network," 8th Midwest Workshop on Control and Game Theory (poster), St. Louis, MO, 2019.
 1. **J. Chen**, R. Zhang and Q. Zhu, "Optimal Control of Interdependent Epidemics in Complex Networks," SIAM Workshop on Network Science (oral presentation),  Boston, MA, 2016.
 1. **J. Chen** and Q. Zhu, "Interdependent Network Formation Games," SIAM Workshop on Network Science (poster), Snowbird, Utah, 2015. 
+
