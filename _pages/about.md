@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my homepage. I am a final-year PhD student in Electrical Engineering at [NYU Tandon School of Engineering](https://engineering.nyu.edu/). I am a research assistant in the [Laboratory for Agile and Resilient Complex Systems (LARX)](http://engineering.nyu.edu/larx/) directed by [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), and a member of [NYU Center for Cybersecurity (CCS)](http://cyber.nyu.edu/).
+Hello, welcome to my homepage. I received my PhD in Electrical Engineering from [NYU Tandon School of Engineering](https://engineering.nyu.edu/). I was a research assistant in the [Laboratory for Agile and Resilient Complex Systems (LARX)](http://engineering.nyu.edu/larx/) directed by [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), and a member of [NYU Center for Cybersecurity (CCS)](http://cyber.nyu.edu/).
 
 Contact: 10th Floor, 370 Jay Street, Brooklyn, NY 11201<br/>
 Email: jc6412@nyu.edu
