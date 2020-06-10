@@ -20,7 +20,8 @@ Research Interests
 - Game and Decision Theory
 - Artificial Intelligence
 - Mechanism Design
-- Smart Grids
+- Smart Energy Systems
+- Resilient Critical Infrastructure
 
 Latest News
 ------
