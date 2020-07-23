@@ -25,6 +25,8 @@ Research Interests
 
 Latest News
 ------
+- July 2020: Our paper "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)" will be published in Springer Dynamic Games and Applications (DGAA).
+- May 2020: Our paper "[Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information](https://arxiv.org/pdf/2003.06493.pdf)" will be published in IEEE Control Systems Letters.
 - Dec. 2019: Our paper "[Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach](https://ieeexplore.ieee.org/document/8943277)" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "[Dynamic Games for Secure and Resilient Control System Design](https://arxiv.org/pdf/1910.07510.pdf)" will be published in National Science Review (NSR).
 - I am serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on March 18-20, 2020.  Please consider submitting your paper!
@@ -34,7 +36,7 @@ Latest News
 - July 2019:  I am visiting Coordinated Science Laboratory at University of Illinois at Urbana-Champaign hosted by [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/).
 - Jun. 2019: Our paper "[A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network](https://ieeexplore.ieee.org/document/8742568)" has been accepted for publication in IEEE Transactions on Information Forensics and Security (T-IFS).
 - May 2019: I received the Dante Youla Award from NYU Department of Electrical and Computer Engineering in recognition of the best Research Contributions among all graduate students in 2018-2019.
-- Apr. 2019: I received the Student Travel Award and attended the [8th Midwest Workshop on Control and Game Theory](https://mwcgt2019.wustl.edu/) with a poster presentation of our work on "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)".
+- Apr. 2019: I received the Student Travel Award and attended the [8th Midwest Workshop on Control and Game Theory](https://mwcgt2019.wustl.edu/) with a poster presentation of our work on systemic cyber risk management of interdependent enterprise networks.
 - Apr. 2019: Our paper "[Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things](https://ieeexplore.ieee.org/document/8691466)" has been accepted for publication in IEEE Transactions on Information Forensics and Security (T-IFS).
 - Mar. 2019: Our paper "[Optimal Secure Design of Two-Layer IoT Network](https://ieeexplore.ieee.org/abstract/document/8673619)" has been accepted for publication in IEEE Transactions on Control of Network Systems (TCNS).
 - Feb. 2019: Our paper "[iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things](https://ieeexplore.ieee.org/document/8543871)" has been published (Volume: 14, Issue: 6, 2019) in IEEE Transactions on Information Forensics and Security (T-IFS).
