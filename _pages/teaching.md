@@ -9,11 +9,8 @@ Under construction...
 
 -----
 Past Teaching Assistant Experience
-------
-- ECE-GY 6143: Machine Learning, NYU Tandon, Spring 19
-- ECE-UY 4563: Introduction to Machine Learning, NYU Tandon, Fall 18
-- ECE-GY 8233: Optimal Control Theory, NYU Tandon, Spring 18
-- ECE-GY 6233: System Optimization Method, NYU Tandon, Fall 15
+-----
+Machine Learning, Introduction to Machine Learning, Optimal Control Theory, System Optimization Method (NYU Tandon)
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
