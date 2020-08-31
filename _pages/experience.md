@@ -12,6 +12,11 @@ Professional Experience
 - Research Assistant, Department of Electrical and Computer Engineering, Tandon School of Engineering, New York Univerity, Advisor [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), September 2014 - May 2020.
 - Visiting Scholar, Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/), July - August 2019.
 
+Education
+------
+- Doctor of Philosophy, Department of Electrical and Computer Engineering, New York University, USA, 2014 - 2020.
+- Bachalor of Engineering, Department of Electrical Engineering, Central South University, China, 2010 - 2014.
+
 Invited Talks
 ------
 - "Enhancing Cyber-Physical Systems Security and Resilience: A Game- and Decision-Theoretic Approach", Department of Electrical and Computer Engineering, Bradley University, Peoria, IL, USA, Aug. 2019.
