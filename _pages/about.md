@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my homepage. I received my PhD in Electrical Engineering from [NYU Tandon School of Engineering](https://engineering.nyu.edu/). I was a research assistant in the [Laboratory for Agile and Resilient Complex Systems (LARX)](http://engineering.nyu.edu/larx/) directed by [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), and a member of [NYU Center for Cybersecurity (CCS)](http://cyber.nyu.edu/).
+Hello, welcome to my homepage. I am an assistant professor in the Department of Computer and Information Science at Fordham University. I am also affiliated with the Fordham Center for Cybersecurity. I received my PhD in Electrical Engineering from NYU Tandon School of Engineering in 2020.
 
-Contact: 10th Floor, 370 Jay Street, Brooklyn, NY 11201<br/>
-Email: jc6412@nyu.edu
+Contact: LL610H, 113 W 60th St, New York, NY 10023<br/>
+Email: jchen504(at)fordham.edu
 
 Research Interests
 ------
