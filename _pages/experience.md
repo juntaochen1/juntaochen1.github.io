@@ -5,17 +5,12 @@ permalink: /experience/
 author_profile: true
 ---
 
-Teaching Experience
+Professional Experience
 ------
-I was a Teaching Assistant for the following classes:
-- ECE-GY 6143: Machine Learning, NYU Tandon, Spring 19
-- ECE-UY 4563: Introduction to Machine Learning, NYU Tandon, Fall 18
-- ECE-GY 8233: Optimal Control Theory, NYU Tandon, Spring 18
-- ECE-GY 6233: System Optimization Method, NYU Tandon, Fall 15
-
-Visiting Experience
-------
-- Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/), July - August 2019.
+- Assistant Professor, Department of Computer and Information Science & Fordham Center for Cybersecurity, Fordham University, September 2020 - present.
+- Research Associate, Department of Electrical and Computer Engineering, Tandon School of Engineering, New York Univerity, June 2020 - August 2020.
+- Research Assistant, Department of Electrical and Computer Engineering, Tandon School of Engineering, New York Univerity, September 2014 - May 2020.
+- Visiting Scholar, Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/), July - August 2019.
 
 Invited Talks
 ------
@@ -26,6 +21,7 @@ Invited Talks
 Professional Activities
 ------
 **Conference Committee:**
+- Publication Chair, International Conference on Decision and Game Theory for Security (GameSec), 2020
 - Web Chair, International Conference on NETwork Games, COntrol and OPtimisation (NETGCOOP), 2020
 - Technical Program Committee, Cyber Security Awareness Week (CSAW) conference, 2019
 - Registration Chair, International Conference on NETwork Games, COntrol and OPtimisation (NETGCOOP), 2018
