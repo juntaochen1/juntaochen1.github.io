@@ -7,7 +7,7 @@ author_profile: true
 
 Under construction...
 
---
+-----
 Past Teaching Assistant Experience
 ------
 - ECE-GY 6143: Machine Learning, NYU Tandon, Spring 19
