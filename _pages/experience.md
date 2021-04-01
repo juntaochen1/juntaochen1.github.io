@@ -54,6 +54,7 @@ Professional Activities
 - Wireless Networks, Springer
 - Personal and Ubiquitous Computing, Springer
 - IEEE Conference on Decision and Control (CDC)
+- IEEE Conference on Control Technology and Applications (CCTA)
 - IEEE Conference on Communications and Network Security (CNS)
 - American Control Conference (ACC)
 - IFAC World Congress
