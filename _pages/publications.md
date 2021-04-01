@@ -9,11 +9,13 @@ author_profile: true
 Submitted
 ------
 - **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," submitted.
+- **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," submitted.
 
 
 Book
 ------
 1. **J. Chen** and Q. Zhu,  [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430), Springer, 2020.
+2. Q. Zhu, J. Baras, R. Poovendran, and **J. Chen** (Eds.), [Decision and Game Theory for Security, 11th International Conference GameSec Proceedings](https://www.springer.com/gp/book/9783030647926), Springer, 2020.
 
 Book Chapters
 ------
@@ -21,11 +23,11 @@ Book Chapters
 
 Journal Papers
 ------
-1. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, accepted, 2020. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
+1. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, vol 5, no 2, pp. 713--718, 2021. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
 1. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network," IEEE Transactions on Information Forensics and Security, vol. 15, pp. 462 - 474, 2020. [PDF](https://arxiv.org/pdf/1906.07185.pdf)
 1. **J. Chen**, C. Touati and Q. Zhu, "Optimal Secure Design of Two-Layer IoT Network," IEEE Transactions on Control of Network Systems, vol, 7 no 1,  pp. 398 - 409, 2020. [PDF](https://arxiv.org/pdf/1707.07046v2.pdf)
 1. **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks," Dynamic Games and Applications, Springer, acccepted, 2020. [PDF](https://arxiv.org/pdf/1908.04431.pdf)
-1. **J. Chen** and Q. Zhu, "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach," IEEE Transactions on Control of Network Systems, accepted, 2019. [PDF](https://arxiv.org/pdf/1912.04082.pdf)
+1. **J. Chen** and Q. Zhu, "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach," IEEE Transactions on Control of Network Systems, vol. 7, no 3, 1056 - 1068, 2020. [PDF](https://arxiv.org/pdf/1912.04082.pdf)
 1. Y. Huang, **J. Chen**, L. Huang and Q. Zhu, "Dynamic Games for Secure and Resilient Control System Design," National Science Review, accepted, 2019. [PDF](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwz218/5707431)
 1. **J. Chen** and Q. Zhu, "Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 11, pp. 2958 - 2971, 2019. [PDF](https://arxiv.org/pdf/1905.09341.pdf)
 1. J. Pawlick, **J. Chen** and Q. Zhu, "iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 6, pp. 1654 - 1669, 2019. [PDF](https://arxiv.org/pdf/1805.00403.pdf)
@@ -36,6 +38,9 @@ Journal Papers
 
 Conference Papers
 ------
+1. G. Peng, T. Li, S. Liu, J. Chen, and Q. Zhu, "Locally-Aware Constrained Games on Networks," American Control Conference (ACC), 2021.
+1. J. Hughes and J. Chen, "Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks," 55th Annual Conference on Information Sciences and Systems (CISS), 2021.
+1. Y. Pan, G. Peng, J. Chen, and Q. Zhu, "MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation," 11th International Conference on Decision and Game Theory for Security (GameSec), 2020.
 1. **J. Chen** and Q. Zhu, "A Games-in-Games Approach to Mosaic Command and Control Design of Dynamic Network-of-Networks for Secure and Resilient Multi-Domain Operations," Proc. SPIE, Sensors and Systems for Space Applications, 2019.
 1. **J. Chen** and Q. Zhu, "A Differential Game Approach to Dynamic Contract Design for Systemic Cyber Risk Management under Asymmetric Information," 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2018.
 1. **J. Chen** and Q. Zhu, "Security Investment under Cognitive Constraints: A Gestalt Nash Equilibrium Approach," 52th Annual Conference on Information Sciences and Systems (CISS), 2018.
