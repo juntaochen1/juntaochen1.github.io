@@ -25,11 +25,15 @@ Research Interests
 
 Latest News
 ------
+- April 2021: Attened the virtual NSF CISE CAREER Workshop.
+- March 2021: Jason presented our paper "[Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks](https://arxiv.org/pdf/2103.16618.pdf) at CISS 2021.
+- March 2021: Received a Faculty Research Grant from Fordham Office of Research on equitable, secure and resilient resource allocation over complex networks.
+- I am serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.  Please consider submitting your paper.
+- Sep. 2020: Joined the CIS Department at Fordham University as a tenure-track assistant professor.
 - July 2020: Our paper "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)" will be published in Springer Dynamic Games and Applications (DGAA).
 - May 2020: Our paper "[Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information](https://arxiv.org/pdf/2003.06493.pdf)" will be published in IEEE Control Systems Letters.
 - Dec. 2019: Our paper "[Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach](https://ieeexplore.ieee.org/document/8943277)" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "[Dynamic Games for Secure and Resilient Control System Design](https://arxiv.org/pdf/1910.07510.pdf)" will be published in National Science Review (NSR).
-- I am serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on March 18-20, 2020.  Please consider submitting your paper!
 - Nov. 2019: I attended the [NSF CPS PI meeting](https://cps-vo.org/group/cps-pimtg19) in Alexandria, VA, and presented a [poster](https://drive.google.com/file/d/1jtCX9d6BDcoBiHVpRm0RKbWMngQfi2-e/view?usp=sharing) on CPS security and resilience.
 - Aug. 2019: I gave an invited research talk, "Enhancing Cyber-Physical Systems Security and Resilience: A Game- and Decision-Theoretic Approach", at the Department of Electrical and Computer Engineering, Bradley University, Illinois.
 - Aug. 2019: I attended the [NSF NeTS Early-Career Workshop](https://sites.google.com/view/netsearlycareer2019/home) in Alexandria, VA.
