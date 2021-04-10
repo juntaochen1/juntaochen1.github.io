@@ -5,9 +5,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Under construction...
+Current Teaching at Fordham:
+CISC 5650: Cybersecurity Essentials
+CISC 2100/2110: Discrete Structure & Lab
 
 
-Past Teaching Assistant Experience:
-Machine Learning, Introduction to Machine Learning, Optimal Control Theory, System Optimization Method (NYU Tandon)
+Past Teaching Assistant Experience at NYU:
+Machine Learning, Introduction to Machine Learning, Optimal Control Theory, System Optimization Method
 
