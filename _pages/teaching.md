@@ -11,6 +11,7 @@ author_profile: true
 
 
 **Past Teaching Assistant Experience at NYU:**
-<br/>
-Machine Learning, Introduction to Machine Learning, Optimal Control Theory, System Optimization Method
+<br/>Machine Learning
+<br/>Optimal Control Theory
+<br/>System Optimization Method
 
