@@ -26,7 +26,7 @@ Research Interests
 Latest News
 ------
 - April 2021: Attened the virtual NSF CISE CAREER Workshop.
-- March 2021: Jason presented our paper "[Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks](https://arxiv.org/pdf/2103.16618.pdf) at CISS 2021.
+- March 2021: Jason presented our paper "[Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks](https://arxiv.org/pdf/2103.16618.pdf)" at CISS 2021.
 - March 2021: Received a Faculty Research Grant from Fordham Office of Research for research on equitable, secure and resilient resource allocation over complex networks.
 - I am serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.  Please consider submitting your paper.
 - Sep. 2020: Joined the CIS Department at Fordham University as a tenure-track assistant professor.
