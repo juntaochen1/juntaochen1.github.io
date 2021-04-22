@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome to my homepage. I am an assistant professor in the Department of Computer and Information Sciences at Fordham University. I am also affiliated with the Fordham Center for Cybersecurity. I received my PhD in Electrical Engineering from NYU Tandon School of Engineering in 2020.
+Welcome to my homepage. I am an assistant professor in the Department of Computer and Information Sciences at Fordham University. I am also affiliated with the Fordham Center for Cybersecurity. I received my PhD in Electrical Engineering from NYU Tandon School of Engineering in 2020.
 
 Contact: LL610H, 113 W 60th St, New York, NY 10023<br/>
 Email: jchen504(at)fordham.edu
