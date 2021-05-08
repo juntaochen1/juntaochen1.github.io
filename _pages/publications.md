@@ -11,7 +11,7 @@ Submitted
 - **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," submitted.
 
 
-Book
+Books
 ------
 1. **J. Chen** and Q. Zhu,  [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430), Springer, 2020.
 2. Q. Zhu, J. Baras, R. Poovendran, and **J. Chen** (Eds.), [Decision and Game Theory for Security, 11th International Conference GameSec Proceedings](https://www.springer.com/gp/book/9783030647926), Springer, 2020.
