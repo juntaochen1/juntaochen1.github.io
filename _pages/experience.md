@@ -17,7 +17,7 @@ Education
 - Doctor of Philosophy, Department of Electrical and Computer Engineering, New York University, USA, 2014 - 2020.
 - Bachalor of Engineering, Department of Electrical Engineering, Central South University, China, 2010 - 2014.
 
-Invited Talks
+Selected Talks
 ------
 - "Real-Time Security and Resilience for Multi-Layer Mobile Autonomous Systems", Artificial Intelligence for Resilient Control Systems Track, Resilient Week, Oct. 2020.
 - "Enhancing Cyber-Physical Systems Security and Resilience: A Game- and Decision-Theoretic Approach", Department of Electrical and Computer Engineering, Bradley University, Peoria, IL, USA, Aug. 2019.
