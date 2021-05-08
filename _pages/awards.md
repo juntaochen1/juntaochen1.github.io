@@ -6,8 +6,9 @@ author_profile: true
 ---
 
 ------
+- Alexander Hessel Award for the Best Ph.D. Dissertation in Electrical Engineering, NYU, 2021
 - Dante Youla Award for Graduate Research Excellence, NYU, 2019
-- NSF Travel Grant, NeTS Early Career Workshop, 2019.
+- NSF Travel Grant, NeTS Early Career Workshop, 2019
 - Student Travel Award, MWCGT, 2019
 - NSF Student Travel Grant, GameSec, 2016
 - IEEE CSS Student Travel Award, CDC, 2016
