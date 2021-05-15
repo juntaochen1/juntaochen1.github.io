@@ -22,7 +22,7 @@ Book Chapters
 
 Journal Papers
 ------
-1. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, to appear, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
+1. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, vol 7, pp. 294-308, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
 1. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, vol 5, no 2, pp. 713--718, 2021. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
 1. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network," IEEE Transactions on Information Forensics and Security, vol. 15, pp. 462 - 474, 2020. [PDF](https://arxiv.org/pdf/1906.07185.pdf)
 1. **J. Chen**, C. Touati and Q. Zhu, "Optimal Secure Design of Two-Layer IoT Network," IEEE Transactions on Control of Network Systems, vol, 7 no 1,  pp. 398 - 409, 2020. [PDF](https://arxiv.org/pdf/1707.07046v2.pdf)
