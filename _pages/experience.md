@@ -15,7 +15,7 @@ Professional Experience
 Education
 ------
 - Doctor of Philosophy, Department of Electrical and Computer Engineering, New York University, USA, 2014 - 2020.
-- Bachalor of Engineering, Department of Electrical Engineering, Central South University, China, 2010 - 2014.
+- Bachalor of Engineering, Department of Electrical Engineering and Automation, Central South University, China, 2010 - 2014.
 
 Selected Talks
 ------
