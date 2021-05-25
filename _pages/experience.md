@@ -7,7 +7,7 @@ author_profile: true
 
 Professional Experience
 ------
-- Assistant Professor, Department of Computer and Information Science & Fordham Center for Cybersecurity, Fordham University, September 2020 - present.
+- Assistant Professor, Department of Computer and Information Sciences & Fordham Center for Cybersecurity, Fordham University, September 2020 - present.
 - Research Associate, Department of Electrical and Computer Engineering, Tandon School of Engineering, New York Univerity, June 2020 - August 2020.
 - Research Assistant, Department of Electrical and Computer Engineering, Tandon School of Engineering, New York Univerity, Advisor [Prof. Quanyan Zhu](https://wp.nyu.edu/quanyan/), September 2014 - May 2020.
 - Visiting Scholar, Coordinated Science Laboratory, University of Illinois at Urbana-Champaign (UIUC). Mentor: [Prof. Tamer Başar](http://tamerbasar.csl.illinois.edu/), July - August 2019.
