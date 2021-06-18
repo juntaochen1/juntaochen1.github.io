@@ -25,6 +25,7 @@ Research Interests
 
 Latest News
 ------
+- June 2021: Jason has a paper "[Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach](https://arxiv.org/pdf/2106.07455.pdf)" accepted to be published in IEEE Control Systems Letters. 
 - May 2021: I received the **Alexander Hessel Award** for the **Best Ph.D. Dissertation** in Electrical Engineering from NYU. Dissertation title: *Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World*.
 - April 2021: Our paper "[Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks](https://arxiv.org/pdf/2011.14262.pdf)" will be published in IEEE Transactions on Signal and Information Processing over Networks (TSIPN).
 - March 2021: Jason presented our paper "[Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks](https://arxiv.org/pdf/2103.16618.pdf)" at CISS 2021.
