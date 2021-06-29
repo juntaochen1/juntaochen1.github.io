@@ -65,4 +65,4 @@ Workshop Abstracts
 
 Dissertation
 ------
-Ph.D. Dissertation: "*Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World*," NYU Tandon School of Engineering, 2020. <a href="https://juntaochen1.github.io/files/Dissertation_Chen.pdf" target="_blank">PDF.</a> (**Alexander Hessel Award for the Best Ph.D. Dissertation in Electrical Engineering, NYU**)[PDF](https://juntaochen1.github.io/files/Dissertation_Chen.pdf)
+Ph.D. Dissertation: "*Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World*," NYU Tandon School of Engineering, 2020. <a href="https://juntaochen1.github.io/files/Dissertation_Chen.pdf" target="_blank">PDF</a> (**Alexander Hessel Award for the Best Ph.D. Dissertation in Electrical Engineering, NYU**)
