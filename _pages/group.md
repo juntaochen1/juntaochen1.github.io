@@ -12,7 +12,7 @@ author_profile: true
 - Navpreet Kaur, BS in Math and Economics
 
 **Past Members:**
-- Maria Jara, Erin Yan, Hailey Bober (Google Tri-State ExploreCSR Members)
+- Maria Jara, Erin Yan, Hailey Bober (Google Tri-State ExploreCSR Members) 
 
 
 
