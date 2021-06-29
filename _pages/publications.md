@@ -63,3 +63,6 @@ Workshop Abstracts
 1. **J. Chen**, R. Zhang and Q. Zhu, "Optimal Control of Interdependent Epidemics in Complex Networks," SIAM Workshop on Network Science (oral presentation),  Boston, MA, 2016.
 1. **J. Chen** and Q. Zhu, "Interdependent Network Formation Games," SIAM Workshop on Network Science (poster), Snowbird, Utah, 2015. 
 
+Dissertation
+------
+Ph.D. Dissertation: "*Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World*," NYU Tandon School of Engineering, 2020. [PDF](https://github.com/juntaochen1/juntaochen1.github.io/blob/a658b6ebea42469c91a63f6529b9e4871acc9621/files/Dissertation%20-%20Juntao%20Chen.pdf) (**Alexander Hessel Award for the Best Ph.D. Dissertation in Electrical Engineering, NYU**)
