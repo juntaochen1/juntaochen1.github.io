@@ -6,10 +6,6 @@ author_profile: true
 ---
 
 
-Submitted
-------
-- **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," submitted.
-
 
 Books
 ------
@@ -22,20 +18,21 @@ Book Chapters
 
 Journal Papers
 ------
-1. J. Hughes* and **J. Chen**, "Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach," IEEE Control Systems Letters, to appear, 2021. [PDF](https://arxiv.org/pdf/2106.07455.pdf)
-2. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, vol 7, pp. 294-308, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
-3. **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks," Dynamic Games and Applications, Springer, vol 11, pp. 294 - 325, 2021. [PDF](https://arxiv.org/pdf/1908.04431.pdf)
-4. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, vol 5, no 2, pp. 713--718, 2021. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
-5. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network," IEEE Transactions on Information Forensics and Security, vol. 15, pp. 462 - 474, 2020. [PDF](https://arxiv.org/pdf/1906.07185.pdf)
-6. **J. Chen**, C. Touati and Q. Zhu, "Optimal Secure Design of Two-Layer IoT Network," IEEE Transactions on Control of Network Systems, vol, 7 no 1,  pp. 398 - 409, 2020. [PDF](https://arxiv.org/pdf/1707.07046v2.pdf)
-7. **J. Chen** and Q. Zhu, "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach," IEEE Transactions on Control of Network Systems, vol. 7, no 3, 1056 - 1068, 2020. [PDF](https://arxiv.org/pdf/1912.04082.pdf)
-8. Y. Huang, **J. Chen**, L. Huang and Q. Zhu, "Dynamic Games for Secure and Resilient Control System Design," National Science Review, accepted, 2019. [PDF](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwz218/5707431)
-9. **J. Chen** and Q. Zhu, "Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 11, pp. 2958 - 2971, 2019. [PDF](https://arxiv.org/pdf/1905.09341.pdf)
-10. J. Pawlick, **J. Chen** and Q. Zhu, "iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 6, pp. 1654 - 1669, 2019. [PDF](https://arxiv.org/pdf/1805.00403.pdf)
-11. **J. Chen** and Q. Zhu, "A Stackelberg Game Approach for Two-Level Distributed Energy Management in Smart Grids," IEEE Transactions on Smart Grid, vol. 9, no. 6, pp. 6554-6565, 2018. [PDF](https://arxiv.org/pdf/1608.08253.pdf)
-12. **J. Chen** and Q. Zhu, "Security as a Service for Cloud-Enabled Internet of Controlled Things Under Advanced Persistent Threats: A Contract Design Approach," IEEE Transactions on Information Forensics and Security, vol. 12, no. 11, pp. 2736-2750, 2017. [PDF](https://drive.google.com/open?id=12aJbLe3V2SpeZKQkI2H5vjCfH9Y0pdYf)
-13. **J. Chen** and Q. Zhu, "A Game-Theoretic Framework for Resilient and Distributed Generation Control of Renewable Energies in Microgrids," IEEE Transactions on Smart Grid, vol. 8, no. 1, pp. 285-295, 2017. [PDF](https://arxiv.org/pdf/1601.04583.pdf)
-14. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Analysis and Design of Infrastructure Network Protection and Recovery," ACM SIGMETRICS Performance Evaluation Review, vol. 45, no. 2, pp. 125-128, 2017. [PDF](https://arxiv.org/pdf/1707.07054.pdf)
+1. J. Hughes* and **J. Chen**, "Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach," IEEE Control Systems Letters, vol 6, pp. 1166 - 1171, 2022. [PDF](https://arxiv.org/pdf/2106.07455.pdf)
+2. **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," IEEE Transactions on Network Science and Engineering, to appear, 2021.
+3. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, vol 7, pp. 294-308, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
+4. **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks," Dynamic Games and Applications, Springer, vol 11, pp. 294 - 325, 2021. [PDF](https://arxiv.org/pdf/1908.04431.pdf)
+5. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, vol 5, no 2, pp. 713--718, 2021. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
+6. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network," IEEE Transactions on Information Forensics and Security, vol. 15, pp. 462 - 474, 2020. [PDF](https://arxiv.org/pdf/1906.07185.pdf)
+7. **J. Chen**, C. Touati and Q. Zhu, "Optimal Secure Design of Two-Layer IoT Network," IEEE Transactions on Control of Network Systems, vol, 7 no 1,  pp. 398 - 409, 2020. [PDF](https://arxiv.org/pdf/1707.07046v2.pdf)
+8. **J. Chen** and Q. Zhu, "Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach," IEEE Transactions on Control of Network Systems, vol. 7, no 3, 1056 - 1068, 2020. [PDF](https://arxiv.org/pdf/1912.04082.pdf)
+9. Y. Huang, **J. Chen**, L. Huang and Q. Zhu, "Dynamic Games for Secure and Resilient Control System Design," National Science Review, accepted, 2019. [PDF](https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwz218/5707431)
+10. **J. Chen** and Q. Zhu, "Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 11, pp. 2958 - 2971, 2019. [PDF](https://arxiv.org/pdf/1905.09341.pdf)
+11. J. Pawlick, **J. Chen** and Q. Zhu, "iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things," IEEE Transactions on Information Forensics and Security, vol. 14, no. 6, pp. 1654 - 1669, 2019. [PDF](https://arxiv.org/pdf/1805.00403.pdf)
+12. **J. Chen** and Q. Zhu, "A Stackelberg Game Approach for Two-Level Distributed Energy Management in Smart Grids," IEEE Transactions on Smart Grid, vol. 9, no. 6, pp. 6554-6565, 2018. [PDF](https://arxiv.org/pdf/1608.08253.pdf)
+13. **J. Chen** and Q. Zhu, "Security as a Service for Cloud-Enabled Internet of Controlled Things Under Advanced Persistent Threats: A Contract Design Approach," IEEE Transactions on Information Forensics and Security, vol. 12, no. 11, pp. 2736-2750, 2017. [PDF](https://drive.google.com/open?id=12aJbLe3V2SpeZKQkI2H5vjCfH9Y0pdYf)
+14. **J. Chen** and Q. Zhu, "A Game-Theoretic Framework for Resilient and Distributed Generation Control of Renewable Energies in Microgrids," IEEE Transactions on Smart Grid, vol. 8, no. 1, pp. 285-295, 2017. [PDF](https://arxiv.org/pdf/1601.04583.pdf)
+15. **J. Chen**, C. Touati and Q. Zhu, "A Dynamic Game Analysis and Design of Infrastructure Network Protection and Recovery," ACM SIGMETRICS Performance Evaluation Review, vol. 45, no. 2, pp. 125-128, 2017. [PDF](https://arxiv.org/pdf/1707.07054.pdf)
 
 Conference Papers
 ------
