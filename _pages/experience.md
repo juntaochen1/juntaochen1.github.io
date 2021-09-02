@@ -29,7 +29,7 @@ Professional Activities
 **Conference Committee:**
 - Publication Chair, International Conference on Decision and Game Theory for Security (GameSec), 2020
 - Web Chair, International Conference on NETwork Games, COntrol and OPtimisation (NETGCOOP), 2020
-- Technical Program Committee, Cyber Security Awareness Week (CSAW) conference, 2019
+- Technical Program Committee, Cyber Security Awareness Week (CSAW) conference, 2019, 2020
 - Registration Chair, International Conference on NETwork Games, COntrol and OPtimisation (NETGCOOP), 2018
 
 **Technical Reviewer**
