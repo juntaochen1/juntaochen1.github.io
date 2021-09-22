@@ -19,7 +19,7 @@ Book Chapters
 Journal Papers
 ------
 1. J. Hughes* and **J. Chen**, "Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach," IEEE Control Systems Letters, vol 6, pp. 1166 - 1171, 2022. [PDF](https://arxiv.org/pdf/2106.07455.pdf)
-2. **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," IEEE Transactions on Network Science and Engineering, to appear, 2021. [PDF](https://arxiv.org/pdf/2108.13159.pdf)
+2. **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," IEEE Transactions on Network Science and Engineering, vol 8, no 3, pp. 2601-2612, 2021. [PDF](https://arxiv.org/pdf/2108.13159.pdf)
 3. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, vol 7, pp. 294-308, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
 4. **J. Chen**, Q. Zhu, and T. Başar, "Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks," Dynamic Games and Applications, Springer, vol 11, pp. 294 - 325, 2021. [PDF](https://arxiv.org/pdf/1908.04431.pdf)
 5. G. Peng, **J. Chen**, and Q. Zhu, "Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information," IEEE Control Systems Letters, vol 5, no 2, pp. 713--718, 2021. [PDF](https://arxiv.org/pdf/2003.06493.pdf)
