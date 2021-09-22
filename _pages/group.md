@@ -6,10 +6,13 @@ author_profile: true
 ---
 
 **Graduate Students:**
-- Jason Hughes, MS in Data Science
+- Jason Hughes, Major: Data Science
+- Yu Cheng, Major: Data Science
+- Bailey Clark, Major: Data Science
 
 **Undergraduate Students:**
-- Navpreet Kaur, BS in Math and Economics
+- Navpreet Kaur, Major: Math and Economics
+- Roger Vo, Major: Computer Science
 
 **Past Members:**
 - Maria Jara, Erin Yan, Hailey Bober (Undergraduates) 
