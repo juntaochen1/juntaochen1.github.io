@@ -14,7 +14,7 @@ Contact: LL610A, 113 W 60th St, New York, NY 10023<br/>
 Email: jchen504(at)fordham.edu
 
 \
-**[PhD Opening]** We have fully funded Ph.D. positions in Computer Science starting at Fall 2021. Interested students are feel free to reach out to me for more information.
+**[PhD Opening]** We have fully funded Ph.D. positions in Computer Science starting in Fall 2021. Interested students can feel free to reach out to me for more information.
 
 
 Research Interests
