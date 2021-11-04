@@ -39,7 +39,7 @@ Conference Papers
 1. Y Huang,  **J. Chen**,  and Q. Zhu, "Assets Defending Differential Games with Partial Information and Selected Observations," IEEE Conference on Decision and Control (CDC), 2021.
 1. G. Peng, T. Li, S. Liu, **J. Chen**, and Q. Zhu, "Locally-Aware Constrained Games on Networks," American Control Conference (ACC), 2021.
 1. J. Hughes* and **J. Chen**, "Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks," 55th Annual Conference on Information Sciences and Systems (CISS), 2021.
-1. Y. Pan, G. Peng, J. Chen, and Q. Zhu, "MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation," 11th International Conference on Decision and Game Theory for Security (GameSec), 2020.
+1. Y. Pan, G. Peng, **J. Chen**, and Q. Zhu, "MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation," 11th International Conference on Decision and Game Theory for Security (GameSec), 2020.
 1. **J. Chen** and Q. Zhu, "A Games-in-Games Approach to Mosaic Command and Control Design of Dynamic Network-of-Networks for Secure and Resilient Multi-Domain Operations," Proc. SPIE, Sensors and Systems for Space Applications, 2019.
 1. **J. Chen** and Q. Zhu, "A Differential Game Approach to Dynamic Contract Design for Systemic Cyber Risk Management under Asymmetric Information," 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2018.
 1. **J. Chen** and Q. Zhu, "Security Investment under Cognitive Constraints: A Gestalt Nash Equilibrium Approach," 52th Annual Conference on Information Sciences and Systems (CISS), 2018.
