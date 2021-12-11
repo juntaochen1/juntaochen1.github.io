@@ -13,6 +13,7 @@ author_profile: true
 **Undergraduate Students:**
 - Navpreet Kaur, Major: Math and Economics
 - Roger Vo, Major: Computer Science
+- James Guest, Major: Computer Science
 
 **Past Members:**
 - Maria Jara, Erin Yan, Hailey Bober (Undergraduates) 
