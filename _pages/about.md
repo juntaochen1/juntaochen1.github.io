@@ -16,7 +16,7 @@ Email: jchen504(at)fordham.edu
 \
 **[PhD Opening]** My group has fully funded Ph.D. position in CS starting in Fall 2022. The student will be supported by RA. Interested and self-motivated students with background on cyber-physical security, system and control theory, smart grids, and/or machine learning are encouraged to contact me.
 
-Our department also has Ph.D. positions in CS fully funded by fellowship starting in Fall 2022. Interested students can reach out to me for more information.
+Our department also has Ph.D. openings in CS fully funded by fellowship starting in Fall 2022. Interested students can reach out to me for more information.
 
 
 Research Interests
