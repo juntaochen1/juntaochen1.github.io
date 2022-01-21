@@ -36,14 +36,15 @@ Latest News
 - Dec. 2021: Received Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
 - July 2021: Our paper "[A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network](https://arxiv.org/pdf/2108.13159.pdf)" will be published in IEEE Transactions on Network Science and Engineering (TNSE).
 - June 2021: Jason has a paper "[Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach](https://arxiv.org/pdf/2106.07455.pdf)" accepted to be published in IEEE Control Systems Letters. 
+- June 2021: Our paper "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)" has been published in Springer Dynamic Games and Applications (DGAA).
 - May 2021: I received the **Alexander Hessel Award** for the **Best Ph.D. Dissertation** in Electrical Engineering from NYU. Dissertation title: *Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World*.
 - April 2021: Our paper "[Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks](https://arxiv.org/pdf/2011.14262.pdf)" will be published in IEEE Transactions on Signal and Information Processing over Networks (TSIPN).
+- April 2020: Our paper "[Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information](https://arxiv.org/pdf/2003.06493.pdf)" has been be published in IEEE Control Systems Letters (Volume: 5, Issue: 2, 2021).
 - March 2021: Jason presented our paper "[Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks](https://arxiv.org/pdf/2103.16618.pdf)" at CISS 2021.
 - March 2021: Received a Faculty Research Grant from the Fordham Office of Research for research on equitable, secure and resilient resource allocation over complex networks.
-- Serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.  Please consider submitting your paper.
+- Serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.
 - Sep. 2020: Joined the CIS Department at Fordham University as a tenure-track assistant professor.
-- July 2020: Our paper "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)" will be published in Springer Dynamic Games and Applications (DGAA).
-- May 2020: Our paper "[Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information](https://arxiv.org/pdf/2003.06493.pdf)" will be published in IEEE Control Systems Letters.
+<!-- 
 - Jan. 2020: Our book [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430) is published by Springer. This book unites game and decision theory with network science to lay a system-theoretical foundation for understanding the resiliency of interdependent and heterogeneous network systems.
 - Dec. 2019: Our paper "[Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach](https://ieeexplore.ieee.org/document/8943277)" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "[Dynamic Games for Secure and Resilient Control System Design](https://arxiv.org/pdf/1910.07510.pdf)" will be published in National Science Review (NSR).
@@ -57,3 +58,4 @@ Latest News
 - Apr. 2019: Our paper "[Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things](https://ieeexplore.ieee.org/document/8691466)" has been accepted for publication in IEEE Transactions on Information Forensics and Security (T-IFS).
 - Mar. 2019: Our paper "[Optimal Secure Design of Two-Layer IoT Network](https://ieeexplore.ieee.org/abstract/document/8673619)" has been accepted for publication in IEEE Transactions on Control of Network Systems (TCNS).
 - Feb. 2019: Our paper "[iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things](https://ieeexplore.ieee.org/document/8543871)" has been published (Volume: 14, Issue: 6, 2019) in IEEE Transactions on Information Forensics and Security (T-IFS).
+-->
