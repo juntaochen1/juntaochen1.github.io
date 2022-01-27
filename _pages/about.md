@@ -45,6 +45,7 @@ Latest News
 - March 2021: Received a Faculty Research Grant from the Fordham Office of Research for research on equitable, secure and resilient resource allocation over complex networks.
 - Serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.
 - Sep. 2020: Joined the CIS Department at Fordham University as a tenure-track assistant professor.
+
 <!-- 
 - Jan. 2020: Our book [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430) is published by Springer. This book unites game and decision theory with network science to lay a system-theoretical foundation for understanding the resiliency of interdependent and heterogeneous network systems.
 - Dec. 2019: Our paper "[Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach](https://ieeexplore.ieee.org/document/8943277)" will be published in IEEE Transactions on Control of Network Systems (TCNS).
