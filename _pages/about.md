@@ -46,8 +46,7 @@ Latest News
 - Serving as the Web Chair of [The 10th International Conference on Network Games, Control and Optimization (NETGCOOP)](https://project.inria.fr/netgcoop2020/), which will be in Corsica, France on September 22 – 24, 2021.
 - Sep. 2020: Joined the CIS Department at Fordham University as a tenure-track assistant professor.
 
-<!-- 
-- Jan. 2020: Our book [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430) is published by Springer. This book unites game and decision theory with network science to lay a system-theoretical foundation for understanding the resiliency of interdependent and heterogeneous network systems.
+<!-- - Jan. 2020: Our book [A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design](https://www.springer.com/gp/book/9783030234430) is published by Springer. This book unites game and decision theory with network science to lay a system-theoretical foundation for understanding the resiliency of interdependent and heterogeneous network systems.
 - Dec. 2019: Our paper "[Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach](https://ieeexplore.ieee.org/document/8943277)" will be published in IEEE Transactions on Control of Network Systems (TCNS).
 - Dec. 2019: Our paper "[Dynamic Games for Secure and Resilient Control System Design](https://arxiv.org/pdf/1910.07510.pdf)" will be published in National Science Review (NSR).
 - Nov. 2019: I attended the [NSF CPS PI meeting](https://cps-vo.org/group/cps-pimtg19) in Alexandria, VA, and presented a [poster](https://drive.google.com/file/d/1jtCX9d6BDcoBiHVpRm0RKbWMngQfi2-e/view?usp=sharing) on CPS security and resilience.
@@ -59,5 +58,4 @@ Latest News
 - Apr. 2019: I received the Student Travel Award and attended the [8th Midwest Workshop on Control and Game Theory](https://mwcgt2019.wustl.edu/) with a poster presentation of our work on systemic cyber risk management of interdependent enterprise networks.
 - Apr. 2019: Our paper "[Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things](https://ieeexplore.ieee.org/document/8691466)" has been accepted for publication in IEEE Transactions on Information Forensics and Security (T-IFS).
 - Mar. 2019: Our paper "[Optimal Secure Design of Two-Layer IoT Network](https://ieeexplore.ieee.org/abstract/document/8673619)" has been accepted for publication in IEEE Transactions on Control of Network Systems (TCNS).
-- Feb. 2019: Our paper "[iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things](https://ieeexplore.ieee.org/document/8543871)" has been published (Volume: 14, Issue: 6, 2019) in IEEE Transactions on Information Forensics and Security (T-IFS).
--->
+- Feb. 2019: Our paper "[iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things](https://ieeexplore.ieee.org/document/8543871)" has been published (Volume: 14, Issue: 6, 2019) in IEEE Transactions on Information Forensics and Security (T-IFS).-->
