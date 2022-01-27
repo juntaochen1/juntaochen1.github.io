@@ -36,7 +36,7 @@ Journal Papers
 
 Conference Papers
 ------
-1. N. Kaur*, J. Hughes* and **J. Chen**, "VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
+1. N Kaur*, J. Hughes*, and **J. Chen**, "VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
 2. **J. Chen**, Y. Huang, and Q. Zhu, "Transactive Resilience in Renewable Microgrids: A Contract-Theoretic Approach," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
 3. Y Huang,  **J. Chen**, and Q. Zhu, "Assets Defending Differential Games with Partial Information and Selected Observations," IEEE Conference on Decision and Control (CDC), 2021.
 4. G. Peng, T. Li, S. Liu, **J. Chen**, and Q. Zhu, "Locally-Aware Constrained Games on Networks," American Control Conference (ACC), 2021.
