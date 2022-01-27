@@ -14,7 +14,7 @@ Contact: LL610A, 113 W 60th St, New York, NY 10023<br/>
 Email: jchen504(at)fordham.edu
 
 \
-**[PhD Opening]** My group has fully funded Ph.D. position starting in Fall 2022. The student will be supported by RA. Interested and self-motivated students with background on system and control theory, cyber-physical systems, smart grids, optimization, and/or machine learning are encouraged to contact me by including your CV, transcript, GRE and TOEFL scores (if applicable).
+**[PhD Opening]** My group has fully funded Ph.D. position starting in Fall 2022. The student will be supported by RA. Interested and self-motivated students with background on system and control theory, cyber-physical systems, security and privacy, smart grids, optimization, and/or machine learning are encouraged to contact me by including your CV, transcript, GRE and TOEFL scores (if applicable).
 
 Our department also has CS Ph.D. openings fully funded by fellowship starting in Fall 2022. Interested students can reach out to me for more information.
 
