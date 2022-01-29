@@ -24,6 +24,7 @@ Research Interests
 - Cyber-Physical Systems
 - Security and Resilience
 - Game and Decision Theory
+- Learning and Optimization
 - Artificial Intelligence
 - Smart Energy Systems
 - Equitable Smart Cities
