@@ -34,7 +34,6 @@ Latest News
 ------
 <!-- - Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks.-->
 - Jan. 2022: Navpreet and Jason have a paper, "[VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution](https://arxiv.org/pdf/2201.07321.pdf)", accepted at CISS 2022. 
-- Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks.
 - Dec. 2021: Received Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
 - July 2021: Our paper "[A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network](https://arxiv.org/pdf/2108.13159.pdf)" will be published in IEEE Transactions on Network Science and Engineering (TNSE).
 - June 2021: Jason has a paper "[Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach](https://arxiv.org/pdf/2106.07455.pdf)" accepted to be published in IEEE Control Systems Letters. 
