@@ -17,12 +17,14 @@ Education
 - Doctor of Philosophy, Department of Electrical and Computer Engineering, New York University, USA, 2014 - 2020.
 - Bachalor of Engineering, Department of Electrical Engineering and Automation, Central South University, China, 2010 - 2014.
 
+<!-- 
 Selected Talks
 ------
 - "Real-Time Security and Resilience for Multi-Layer Mobile Autonomous Systems", Artificial Intelligence for Resilient Control Systems Track, Resilient Week, Oct. 2020.
 - "Enhancing Cyber-Physical Systems Security and Resilience: A Game- and Decision-Theoretic Approach", Department of Electrical and Computer Engineering, Bradley University, Peoria, IL, USA, Aug. 2019.
 - "Strategic Design of Secure and Resilient Infrastructure Network: A Dynamic Game Approach", at International Conference on Network Games, Control and Optimisation (NETGCOOP), Brooklyn, NY, USA, Nov. 2018.
 - "Dynamic Cyber Risk Management with Uncertainty under Asymmetric Information", at AMS Sectional Meeting on Optimization under Uncertainty, Boston, MA, USA, Apr. 2018.
+-->
 
 Professional Activities
 ------
