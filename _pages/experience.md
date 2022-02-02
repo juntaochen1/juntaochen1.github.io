@@ -26,6 +26,7 @@ Selected Talks
 - "Dynamic Cyber Risk Management with Uncertainty under Asymmetric Information", at AMS Sectional Meeting on Optimization under Uncertainty, Boston, MA, USA, Apr. 2018.
 -->
 
+<!-- 
 Professional Activities
 ------
 **Conference Committee:**
@@ -65,3 +66,5 @@ Professional Activities
 - World Forum on Internet of Things (WF-IoT)
 - IFIP Conference on Data and Applications Security and Privacy
 - North American Power Symposium
+
+-->
