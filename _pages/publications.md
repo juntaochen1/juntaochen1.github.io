@@ -14,7 +14,7 @@ Books
 
 Book Chapters
 ------
-1. **J. Chen** and Q. Zhu, A System-of-Systems Approach to Strategic Cyber-Defense and Robust Switching Control Design for Cyber-Physical Wind Energy Systems, book chapter in Security and Resilience of Control Systems, Springer, 2022.
+<!-- 1. **J. Chen** and Q. Zhu, A System-of-Systems Approach to Strategic Cyber-Defense and Robust Switching Control Design for Cyber-Physical Wind Energy Systems, book chapter in Security and Resilience of Control Systems, Springer, 2022. -->
 1. L. Huang, **J. Chen** and Q. Zhu, Factored Markov Game Theory for Secure Interdependent Infrastructure Networks, book chapter in Game Theory for Security Risk Management, Springer, 2018. [PDF](https://www.researchgate.net/profile/Linan_Huang2/publication/326242751_Factored_Markov_Game_Theory_for_Secure_Interdependent_Infrastructure_Networks/links/5c00642892851c63cab04b4f/Factored-Markov-Game-Theory-for-Secure-Interdependent-Infrastructure-Networks.pdf)
 
 Journal Papers
