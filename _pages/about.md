@@ -32,7 +32,7 @@ Research Interests
 
 Latest News
 ------
-<!-- - Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks.-->
+- Received a Faculty Research Grant from the Fordham Office of Research. The grant will support the research on promoting Energy Justice using AI.
 - Jan. 2022: Navpreet and Jason have a paper, "[VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution](https://arxiv.org/pdf/2201.07321.pdf)", accepted at CISS 2022.
 - Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks.
 - Dec. 2021: Received Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
