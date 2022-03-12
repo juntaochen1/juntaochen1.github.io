@@ -3,15 +3,15 @@ main:
   - title: "Publication"
     url: /publications/ 
  
- - title: "Research"
+  - title: "Research"
     url: /projects/
     
   - title: "Teaching"
     url: /teaching/  
-    
+
   - title: "Group"
     url: /group/  
-    
+
   - title: "Experience"
     url: /experience/
     
