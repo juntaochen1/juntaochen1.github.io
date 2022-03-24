@@ -20,6 +20,9 @@ Email: jchen504(at)fordham.edu
 Our department also has CS Ph.D. openings fully funded by fellowship starting in Fall 2022. Interested students can reach out to me for more information.
 -->
 
+\
+I am actively looking for motivated students in research projects on cyber-physical systems' security and privacy, machine learning and AI, IoT, robotics, and smart cities. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
+
 Research Interests
 ------
 - Cyber-Physical Systems
