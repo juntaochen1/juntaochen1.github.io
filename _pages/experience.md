@@ -1,6 +1,7 @@
 ---
 layout: archive
-permalink: /experience/
+title: "Bio"
+permalink: /bio/
 author_profile: true
 ---
 
