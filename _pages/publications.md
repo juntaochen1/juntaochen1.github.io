@@ -38,26 +38,27 @@ Journal Papers
 
 Conference Papers
 ------
-1. N. Kaur\*, J. Hughes\*, and **J. Chen**, "VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
-2. **J. Chen**, Y. Huang, and Q. Zhu, "Transactive Resilience in Renewable Microgrids: A Contract-Theoretic Approach," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
-3. Y Huang,  **J. Chen**, and Q. Zhu, "Assets Defending Differential Games with Partial Information and Selected Observations," IEEE Conference on Decision and Control (CDC), 2021.
-4. G. Peng, T. Li, S. Liu, **J. Chen**, and Q. Zhu, "Locally-Aware Constrained Games on Networks," American Control Conference (ACC), 2021.
-5. J. Hughes* and **J. Chen**, "Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks," 55th Annual Conference on Information Sciences and Systems (CISS), 2021.
-6. Y. Pan, G. Peng, **J. Chen**, and Q. Zhu, "MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation," 11th International Conference on Decision and Game Theory for Security (GameSec), 2020.
-7. **J. Chen** and Q. Zhu, "A Games-in-Games Approach to Mosaic Command and Control Design of Dynamic Network-of-Networks for Secure and Resilient Multi-Domain Operations," Proc. SPIE, Sensors and Systems for Space Applications, 2019.
-8. **J. Chen** and Q. Zhu, "A Differential Game Approach to Dynamic Contract Design for Systemic Cyber Risk Management under Asymmetric Information," 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2018.
-9. **J. Chen** and Q. Zhu, "Security Investment under Cognitive Constraints: A Gestalt Nash Equilibrium Approach," 52th Annual Conference on Information Sciences and Systems (CISS), 2018.
-10. L. Huang, **J. Chen** and Q. Zhu, "Distributed and Optimal Resilient Control of Large-Scale Interdependent Critical Infrastructures", Winter Simulation Conference (WSC), 2018. 
-11. **J. Chen**, C. Touati and Q. Zhu, "Heterogeneous Multi-Layer Adversarial Network Design for the IoT-Enabled Infrastructures," IEEE Global Communications Conference (GLOBECOM), 2017. 
-12. L. Huang, **J. Chen** and Q. Zhu, "A Large-Scale Markov Game Approach to Dynamic Protection of Interdependent Infrastructure Networks", Conference on Decision and Game Theory for Security (GameSec), 2017. 
-13. **J. Chen** and Q. Zhu, "Interdependent Strategic Cyber Defense and Robust Switching Control Design for Wind Energy Systems," IEEE Power and Energy Society General Meeting (PESGM), 2017. 
-14. L. Huang, **J. Chen** and Q. Zhu, "A Factored MDP Approach to Optimal Mechanism Design for Resilient Large-Scale Interdependent Critical Infrastructures," Workshop on Modeling and Simulation of CyberPhysical Energy Systems (MSCPES), Cyber-Physical Systems Week (CPS Week), 2017. 
-15. V. Kurian, **J. Chen** and Q. Zhu, "Electric Power Dependent Dynamic Tariffs for Water Distribution Systems," Workshop on Cyber-Physical Systems for Smart Water Networks (CySWater), Cyber-Physical Systems Week (CPS Week), 2017. 
-16. **J. Chen** and Q. Zhu, "Optimal Contract Design under Asymmetric Information for Cloud-Enabled Internet of Controlled Things," Conference on Decision and Game Theory for Security (GameSec), 2016. 
-17. **J. Chen** and Q. Zhu, "Resilient and Decentralized Control of Multi-level Robotic Networks to Maintain Connectivity under Adversarial Attacks," IEEE Conference on Decision and Control (CDC), 2016. 
-18. **J. Chen** and Q. Zhu, "Interdependent Network Formation Games with an Application to Critical Infrastructures," American Control Conference (ACC), 2016. 
-19. **J. Chen** and Q. Zhu, "Optimal Allocation of Robotic Wind Turbine Inspectors in a Wind Farm," IEEE Power and Energy Society General Meeting (PESGM), 2015. 
-20. **J. Chen**, L. Zhou and Q. Zhu, "Resilient Control Design for Wind Turbines Using Markov Jump Linear System Model with Levy Noise," IEEE International Conference on Smart Grid Communications (SmartGridComm), 2015.
+1. N. Kaur\* and **J. Chen**, "Collaborative Learning for Large-Scale Discrete Optimal Transport under Incomplete Populational Information," IEEE International Conference on Computer Communications (INFOCOM) - Poster, 2022.
+2. N. Kaur\*, J. Hughes\*, and **J. Chen**, "VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
+3. **J. Chen**, Y. Huang, and Q. Zhu, "Transactive Resilience in Renewable Microgrids: A Contract-Theoretic Approach," 56th Annual Conference on Information Sciences and Systems (CISS), 2022.
+4. Y Huang,  **J. Chen**, and Q. Zhu, "Assets Defending Differential Games with Partial Information and Selected Observations," IEEE Conference on Decision and Control (CDC), 2021.
+5. G. Peng, T. Li, S. Liu, **J. Chen**, and Q. Zhu, "Locally-Aware Constrained Games on Networks," American Control Conference (ACC), 2021.
+6. J. Hughes* and **J. Chen**, "Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks," 55th Annual Conference on Information Sciences and Systems (CISS), 2021.
+7. Y. Pan, G. Peng, **J. Chen**, and Q. Zhu, "MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation," 11th International Conference on Decision and Game Theory for Security (GameSec), 2020.
+8. **J. Chen** and Q. Zhu, "A Games-in-Games Approach to Mosaic Command and Control Design of Dynamic Network-of-Networks for Secure and Resilient Multi-Domain Operations," Proc. SPIE, Sensors and Systems for Space Applications, 2019.
+9. **J. Chen** and Q. Zhu, "A Differential Game Approach to Dynamic Contract Design for Systemic Cyber Risk Management under Asymmetric Information," 56th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2018.
+10. **J. Chen** and Q. Zhu, "Security Investment under Cognitive Constraints: A Gestalt Nash Equilibrium Approach," 52th Annual Conference on Information Sciences and Systems (CISS), 2018.
+11. L. Huang, **J. Chen** and Q. Zhu, "Distributed and Optimal Resilient Control of Large-Scale Interdependent Critical Infrastructures", Winter Simulation Conference (WSC), 2018. 
+12. **J. Chen**, C. Touati and Q. Zhu, "Heterogeneous Multi-Layer Adversarial Network Design for the IoT-Enabled Infrastructures," IEEE Global Communications Conference (GLOBECOM), 2017. 
+13. L. Huang, **J. Chen** and Q. Zhu, "A Large-Scale Markov Game Approach to Dynamic Protection of Interdependent Infrastructure Networks", Conference on Decision and Game Theory for Security (GameSec), 2017. 
+14. **J. Chen** and Q. Zhu, "Interdependent Strategic Cyber Defense and Robust Switching Control Design for Wind Energy Systems," IEEE Power and Energy Society General Meeting (PESGM), 2017. 
+15. L. Huang, **J. Chen** and Q. Zhu, "A Factored MDP Approach to Optimal Mechanism Design for Resilient Large-Scale Interdependent Critical Infrastructures," Workshop on Modeling and Simulation of CyberPhysical Energy Systems (MSCPES), Cyber-Physical Systems Week (CPS Week), 2017. 
+16. V. Kurian, **J. Chen** and Q. Zhu, "Electric Power Dependent Dynamic Tariffs for Water Distribution Systems," Workshop on Cyber-Physical Systems for Smart Water Networks (CySWater), Cyber-Physical Systems Week (CPS Week), 2017. 
+17. **J. Chen** and Q. Zhu, "Optimal Contract Design under Asymmetric Information for Cloud-Enabled Internet of Controlled Things," Conference on Decision and Game Theory for Security (GameSec), 2016. 
+18. **J. Chen** and Q. Zhu, "Resilient and Decentralized Control of Multi-level Robotic Networks to Maintain Connectivity under Adversarial Attacks," IEEE Conference on Decision and Control (CDC), 2016. 
+19. **J. Chen** and Q. Zhu, "Interdependent Network Formation Games with an Application to Critical Infrastructures," American Control Conference (ACC), 2016. 
+20. **J. Chen** and Q. Zhu, "Optimal Allocation of Robotic Wind Turbine Inspectors in a Wind Farm," IEEE Power and Energy Society General Meeting (PESGM), 2015. 
+21. **J. Chen**, L. Zhou and Q. Zhu, "Resilient Control Design for Wind Turbines Using Markov Jump Linear System Model with Levy Noise," IEEE International Conference on Smart Grid Communications (SmartGridComm), 2015.
 
 Workshop Abstracts
 ------
