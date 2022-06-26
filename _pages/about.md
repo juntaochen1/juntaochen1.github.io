@@ -21,7 +21,7 @@ Our department also has CS Ph.D. openings fully funded by fellowship starting in
 -->
 
 \
-I am actively looking for motivated students in research projects on cyber-physical systems' security and privacy, machine learning and AI, IoT, robotics, and smart cities. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
+I am actively looking for motivated students in research projects on cyber-physical systems security and resilience, machine learning and AI, robotics, and smart cities. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
 
 Research Interests
 ------
