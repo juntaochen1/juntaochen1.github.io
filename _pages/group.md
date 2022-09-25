@@ -5,8 +5,10 @@ permalink: /group/
 author_profile: true
 ---
 
+**PhD Students:**
+- Courtney King, Computer Science
+
 **Graduate Students:**
-- Courtney King, Major: Computer Science
 - Jason Hughes, Major: Data Science
 - Bailey Clark, Major: Data Science
 
@@ -15,7 +17,6 @@ author_profile: true
 - Roger Vo, Major: Computer Science
 - Gabrielle Ebbrecht, Major: Business & Data Science
 - James Guest, Major: Computer Science
-- Frank Cheong Jr., Major: Computer Science & Math
 
 **Past Members:**
 - Maria Jara, Spring 2021
