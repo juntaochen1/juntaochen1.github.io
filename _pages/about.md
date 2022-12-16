@@ -36,6 +36,8 @@ Research Interests
 
 Latest News
 ------
+- Dec. 2022: Jason presented the paper "[Differentially Private ADMM-Based Distributed Discrete Optimal Transport for Resource Allocation](https://arxiv.org/pdf/2211.17070.pdf)" at GLOBECOM.
+- May 2022: Navpreet presented her work on Collaborative Learning for Optimal Transport at INFOCOM.
 - March 2022: Received a Faculty Research Grant from the Fordham Office of Research. The grant will support the research on promoting Energy Justice using AI.
 - Jan. 2022: Navpreet and Jason have a paper, "[VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution](https://arxiv.org/pdf/2201.07321.pdf)", accepted at CISS 2022.
 - Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks. [Link](https://news.fordham.edu/colleges-and-schools/graduate-school-of-arts-and-sciences/professor-awarded-national-science-foundation-grant-to-study-electric-power-systems-and-cyberattacks/)
