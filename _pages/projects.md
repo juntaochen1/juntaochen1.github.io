@@ -10,6 +10,7 @@ author_profile: true
 
 - *[Multi-Layer Dynamic Strategic Decision-Making for Integrated Cyber-Physical Energy Systems Security and Resilience](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false)*
 - *Trustworthy AI for Multi-Agent Robotics*
+- *Collaborative Resilient Cyber-Physical Autonomy*
 - *Adversairal Reinforcement Learning*
 - *Energy Justice: Uncovering and Mitigating Systemic Energy Inequity using AI*
 - *Algorithmic Foundation for Secure, Resilient, and Fair Optimal Transport*
