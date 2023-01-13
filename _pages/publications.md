@@ -19,8 +19,8 @@ Book Chapters
 
 Journal Papers
 ------
-1. **J. Chen** and Q. Zhu, "A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control of Cyber-Physical Wind Energy Systems," IEEE Transactions on Automation Science and Engineering, vol 20, no 1, pp. 624-635, 2023. 
-2. **J. Chen**, J. Farooq, and Q. Zhu, "QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets," IEEE Internet of Things Journal, to appear, 2023. [PDF](https://arxiv.org/pdf/2301.04691.pdf)
+1. **J. Chen**, J. Farooq, and Q. Zhu, "QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets," IEEE Internet of Things Journal, to appear, 2023. [PDF](https://arxiv.org/pdf/2301.04691.pdf)
+2. **J. Chen** and Q. Zhu, "A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control of Cyber-Physical Wind Energy Systems," IEEE Transactions on Automation Science and Engineering, vol 20, no 1, pp. 624-635, 2023.
 3. J. Hughes* and **J. Chen**, "Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach," IEEE Control Systems Letters, vol 6, pp. 1166 - 1171, 2022. [PDF](https://arxiv.org/pdf/2106.07455.pdf)
 4. **J. Chen**, C. Touati, and Q. Zhu, "A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network," IEEE Transactions on Network Science and Engineering, vol 8, no 3, pp. 2601-2612, 2021. [PDF](https://arxiv.org/pdf/2108.13159.pdf)
 5. **J. Chen**, Y. Huang, R. Zhang, and Q. Zhu, "Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks," IEEE Transactions on Signal and Information Processing over Networks, vol 7, pp. 294-308, 2021. [PDF](https://arxiv.org/pdf/2011.14262.pdf)
