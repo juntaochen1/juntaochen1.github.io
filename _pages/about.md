@@ -36,6 +36,7 @@ Research Interests
 
 Latest News
 ------
+- Jan. 2023: Our paper "[QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets](https://arxiv.org/pdf/2301.04691.pdf)" will appear in IEEE Internet of Things Journal.
 - Dec. 2022: Jason presented the paper "[Differentially Private ADMM-Based Distributed Discrete Optimal Transport for Resource Allocation](https://arxiv.org/pdf/2211.17070.pdf)" at GLOBECOM.
 - May 2022: Navpreet presented her work on Collaborative Learning for Optimal Transport at INFOCOM.
 - March 2022: Received a Faculty Research Grant from the Fordham Office of Research. The grant will support the research on promoting Energy Justice using AI.
