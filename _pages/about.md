@@ -37,7 +37,7 @@ Research Interests
 Latest News
 ------
 - March 2023: Received a Fordham-IBM research fellowship. This grant will support the collaborative project with IBM researcher on dynamic adversarial AI.
-- Feb. 2023: Courtney and Bill has a paper on the security of batch learning in dynamic systems accepted at CISS 2023. Gabrielle will present her work on the energy system equitable resilience at the conference too.  
+- Feb. 2023: Courtney and Bill has a paper on the security of dynamic learning accepted at CISS 2023. Gabrielle will present her work on the energy system equitable resilience at the conference too.  
 - Jan. 2023: Our paper "[QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets](https://arxiv.org/pdf/2301.04691.pdf)" will appear in IEEE Internet of Things Journal.
 - Dec. 2022: Jason presented the paper "[Differentially Private ADMM-Based Distributed Discrete Optimal Transport for Resource Allocation](https://arxiv.org/pdf/2211.17070.pdf)" at GLOBECOM.
 - May 2022: Navpreet presented her work on Collaborative Learning for Optimal Transport at INFOCOM.
