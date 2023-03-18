@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor in the [Department of Computer and Information Sciences](https://www.fordham.edu/info/20344/computer_and_information_sciences/) at [Fordham University](https://www.fordham.edu/). I am also affiliated with the Fordham Center for Cybersecurity. I received my PhD in Electrical Engineering from New York University (NYU), Tandon School of Engineering in 2020.
+I am an assistant professor in the [Department of Computer and Information Sciences](https://www.fordham.edu/info/20344/computer_and_information_sciences/) at [Fordham University](https://www.fordham.edu/), and also affiliated with the Fordham Center for Cybersecurity. I am a Fordham-NYU and Fordham-IBM fellow. I received my PhD in Electrical Engineering from New York University (NYU), Tandon School of Engineering in 2020.
 
 Contact: LL610A, 113 W 60th St, New York, NY 10023<br/>
 Email: jchen504(at)fordham.edu
@@ -36,13 +36,15 @@ Research Interests
 
 Latest News
 ------
+- March 2023: Received a Fordham-IBM research fellowship. This grant will support the collaborative project with IBM researcher on dynamic adversarial AI.
+- Feb. 2023: Courtney and Bill has a paper on the security of batch learning in dynamic systems accepted at CISS 2023. Gabrielle will present her work on the energy system equitable resilience at the conference too.  
 - Jan. 2023: Our paper "[QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets](https://arxiv.org/pdf/2301.04691.pdf)" will appear in IEEE Internet of Things Journal.
 - Dec. 2022: Jason presented the paper "[Differentially Private ADMM-Based Distributed Discrete Optimal Transport for Resource Allocation](https://arxiv.org/pdf/2211.17070.pdf)" at GLOBECOM.
 - May 2022: Navpreet presented her work on Collaborative Learning for Optimal Transport at INFOCOM.
 - March 2022: Received a Faculty Research Grant from the Fordham Office of Research. The grant will support the research on promoting Energy Justice using AI.
 - Jan. 2022: Navpreet and Jason have a paper, "[VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution](https://arxiv.org/pdf/2201.07321.pdf)", accepted at CISS 2022.
 - Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks. [Link](https://news.fordham.edu/colleges-and-schools/graduate-school-of-arts-and-sciences/professor-awarded-national-science-foundation-grant-to-study-electric-power-systems-and-cyberattacks/)
-- Dec. 2021: Received Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
+- Dec. 2021: Received a Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
 - July 2021: Our paper "[A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network](https://arxiv.org/pdf/2108.13159.pdf)" will be published in IEEE Transactions on Network Science and Engineering (TNSE).
 - June 2021: Jason has a paper "[Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach](https://arxiv.org/pdf/2106.07455.pdf)" accepted to be published in IEEE Control Systems Letters. 
 - June 2021: Our paper "[Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks](https://arxiv.org/pdf/1908.04431.pdf)" has been published in Springer Dynamic Games and Applications (DGAA).
