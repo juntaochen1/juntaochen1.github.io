@@ -21,7 +21,7 @@ Our department also has CS Ph.D. openings fully funded by fellowship starting in
 -->
 
 \
-I am actively looking for motivated students in research projects on cyber-physical systems security and resilience, machine learning and AI, robotics, and smart cities. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
+I am actively looking for motivated students in research projects on cyber-physical systems security and resilience, robotics, quantum AI and its security. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
 
 Research Interests
 ------
@@ -36,6 +36,7 @@ Research Interests
 
 Latest News
 ------
+- Aug. 2023: **[Grant]** Proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false) will support the research and education on quantum computing cybersecurity at the system-level.
 - April 2023: Received Distinguished Research Award for junior faculty from Fordham University Research Council.
 - March 2023: Received a Fordham-IBM research fellowship. This grant will support the collaborative project with IBM researcher on dynamic adversarial AI.
 - Feb. 2023: Two works, security of dynamic learning and energy system equitable resilience, are presented at CISS 2023.
@@ -44,7 +45,7 @@ Latest News
 - May 2022: Navpreet presented her work on Collaborative Learning for Optimal Transport at INFOCOM.
 - March 2022: Received a Faculty Research Grant from the Fordham Office of Research. The grant will support the research on promoting Energy Justice using AI.
 - Jan. 2022: Navpreet and Jason have a paper, "[VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution](https://arxiv.org/pdf/2201.07321.pdf)", accepted at CISS 2022.
-- Jan. 2022: **[New Grant]** Proposal is funded by NSF! This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks. [Link](https://news.fordham.edu/colleges-and-schools/graduate-school-of-arts-and-sciences/professor-awarded-national-science-foundation-grant-to-study-electric-power-systems-and-cyberattacks/)
+- Jan. 2022: **[Grant]** Proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false) will support the research on enhancing cyber-physical energy systems security and resilience under strategic IoT-based cyberattacks. [Link](https://news.fordham.edu/colleges-and-schools/graduate-school-of-arts-and-sciences/professor-awarded-national-science-foundation-grant-to-study-electric-power-systems-and-cyberattacks/)
 - Dec. 2021: Received a Fordham-NYU research fellowship from the Fordham Office of Research. This award will support the development of thrustworthy multi-agent autonomous systems.
 - July 2021: Our paper "[A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network](https://arxiv.org/pdf/2108.13159.pdf)" will be published in IEEE Transactions on Network Science and Engineering (TNSE).
 - June 2021: Jason has a paper "[Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach](https://arxiv.org/pdf/2106.07455.pdf)" accepted to be published in IEEE Control Systems Letters. 
