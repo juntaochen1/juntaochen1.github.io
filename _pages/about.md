@@ -39,6 +39,7 @@ Research Interests
 Latest News
 ------
 - Aug. 2023: **[*Grant*]** Our proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false) will support our effort on research and education on system-level quantum computing cybersecurity.
+- July 2023: Jason presented his work on security investment over networks with bounded rational agents at SIAM CT. 
 - April 2023: Received Distinguished Research Award for junior faculty from Fordham University Research Council.
 - March 2023: Received a Fordham-IBM research fellowship. This grant will support the collaborative project with IBM researcher on dynamic adversarial AI.
 - Feb. 2023: Two works, security of dynamic learning and energy system equitable resilience, are presented at CISS 2023.
