@@ -21,7 +21,9 @@ Our department also has CS Ph.D. openings fully funded by fellowship starting in
 -->
 
 \
-I am actively looking for motivated students in research projects on cyber-physical systems security and resilience, robotics, quantum AI and its security. If you are interested in joining our group, please send me an email with your CV and a brief description of past research/project experiences.
+**[PhD Openings]** I am actively looking for self-motivated PhD students in research projects on cyber-physical systems security and resilience, AI, quantum AI and its security. If you are interested, please send me an email with your CV, transcript, language test (if applicable), and a brief description of past research/project experiences.
+
+**[Research Opportunity]** For masters and undergraduate students interested in gaining research experience in the areas of AI, robotics, smart cities and cybersecurity, feel free to contact me with your CV and a brief description of past research/project experiences (if any).
 
 Research Interests
 ------
@@ -30,13 +32,13 @@ Research Interests
 - Game and Decision Theory
 - Learning and Optimization
 - Artificial Intelligence
+- Quantum AI and Quantum System Security
 - Smart Energy Systems
 - Equitable Smart Cities
-- Resilient Critical Infrastructure
 
 Latest News
 ------
-- Aug. 2023: **[Grant]** Proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false) will support the research and education on quantum computing cybersecurity at the system-level.
+- Aug. 2023: **[Grant]** Our proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false) will support our effort on research and education on system-level quantum computing cybersecurity.
 - April 2023: Received Distinguished Research Award for junior faculty from Fordham University Research Council.
 - March 2023: Received a Fordham-IBM research fellowship. This grant will support the collaborative project with IBM researcher on dynamic adversarial AI.
 - Feb. 2023: Two works, security of dynamic learning and energy system equitable resilience, are presented at CISS 2023.
