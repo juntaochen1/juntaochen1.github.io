@@ -38,6 +38,9 @@ Research Interests
 
 Latest News
 ------
+- Feb. 2024: **[*Grant*]** Our proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343535&HistoricalAwards=false) will investigate resilient quantum learning system.
+- Jan. 2024: Our paper "[Integrated Cyber-Physical Resiliency for Power Grids under IoT-Enabled Dynamic Botnet Attacks](https://arxiv.org/pdf/2401.01963.pdf)" will appear in IEEE Transactions on Control Systems Technology.
+- Oct. 2023: Gabrielle presented work on adversarial manipulation of learning in differential games at IEEE CNS.
 - Aug. 2023: **[*Grant*]** Our proposal is funded by NSF. This [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false) will support our effort on research and education on system-level quantum computing cybersecurity.
 - July 2023: Jason presented his work on security investment over networks with bounded rational agents at SIAM CT. 
 - April 2023: Received Distinguished Research Award for junior faculty from Fordham University Research Council.
