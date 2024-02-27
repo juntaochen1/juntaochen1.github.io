@@ -10,6 +10,7 @@ author_profile: true
 
 - *[Integrated Cyber-Physical Energy Systems Security and Resilience](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956&HistoricalAwards=false)*
 - *[System-Level Quantum Computing Security and Privacy](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788&HistoricalAwards=false)*
+- *[Resilient Quantum Learning](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343535&HistoricalAwards=false)*
 - *Trustworthy AI for Multi-Agent Systems*
 - *Collaborative Resilient Cyber-Physical Autonomy*
 - *Adversarial Machine Learning*
