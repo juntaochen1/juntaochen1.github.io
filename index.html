@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juntao Chen — Fordham University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #111111;
+    --ink-mid: #3a3a3a;
+    --ink-light: #666666;
+    --rule: #e8e6e0;
+    --bg: #fafaf8;
+    --bg-panel: #f3f1ec;
+    --accent: #1a3a5c;
+    --accent-warm: #c0392b;
+    --mono: 'DM Mono', monospace;
+    --serif: 'DM Serif Display', serif;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Layout ── */
+  .site-wrap {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+  }
+
+  /* ── Sidebar ── */
+  aside {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--bg);
+    border-right: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem 2rem;
+  }
+
+  .photo-wrap {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--rule);
+    margin-bottom: 1.5rem;
+    flex-shrink: 0;
+  }
+  .photo-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+  .name {
+    font-family: var(--serif);
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+
+  .title-line {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  nav { flex: 1; }
+  nav a {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    text-decoration: none;
+    padding: 6px 0;
+    transition: color 0.15s;
+    border-bottom: none;
+  }
+  nav a:hover, nav a.active { color: var(--accent); }
+
+  .sidebar-links {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .sidebar-links a {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    text-decoration: none;
+    transition: color 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .sidebar-links a:hover { color: var(--accent); }
+  .sidebar-links a::before { content: '↗'; font-size: 10px; }
+
+  .sidebar-footer {
+    margin-top: auto;
+    padding-top: 2rem;
+    font-size: 11px;
+    color: var(--ink-light);
+    font-family: var(--mono);
+  }
+
+  /* ── Main ── */
+  main { padding: 4rem 5rem 6rem 5.5rem; max-width: 860px; }
+
+  section { margin-bottom: 5rem; }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  /* ── About ── */
+  .about-intro {
+    font-family: var(--serif);
+    font-size: 28px;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+  .about-body {
+    color: var(--ink-mid);
+    font-size: 15px;
+    line-height: 1.75;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+  }
+  .contact-line {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-light);
+    margin-bottom: 0.4rem;
+  }
+  .contact-line span { color: var(--ink-mid); }
+
+  /* ── Opening Pills ── */
+  .openings {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .pill {
+    background: var(--bg-panel);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--ink-mid);
+    border-radius: 0 4px 4px 0;
+    line-height: 1.5;
+  }
+  .pill strong { color: var(--accent); font-weight: 500; }
+
+  /* ── Research interests ── */
+  .interests-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .interest-tag {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    background: transparent;
+    border: 1px solid var(--rule);
+    padding: 10px 14px;
+    border-radius: 3px;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .interest-tag:hover {
+    border-color: var(--accent);
+    background: var(--bg-panel);
+  }
+
+  /* ── News ── */
+  .news-list { display: flex; flex-direction: column; }
+  .news-item {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 0 1.5rem;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .news-item:first-child { border-top: 1px solid var(--rule); }
+  .news-date {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    padding-top: 2px;
+    white-space: nowrap;
+  }
+  .news-text { color: var(--ink-mid); }
+  .news-text a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+  .news-text a:hover { border-color: var(--accent); }
+  .badge {
+    display: inline;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    background: var(--accent);
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  .badge.grant { background: #1a6b3a; }
+  .badge.award { background: #7a4800; }
+
+  /* toggle */
+  #news-more { display: none; }
+  .toggle-news {
+    margin-top: 1rem;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-light);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--rule);
+    padding: 7px 14px;
+    border-radius: 3px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .toggle-news:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* ── Publications sample ── */
+  .pub-list { display: flex; flex-direction: column; gap: 20px; }
+  .pub-item {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .pub-item:last-child { border-bottom: none; }
+  .pub-venue {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-warm);
+    margin-bottom: 5px;
+  }
+  .pub-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  .pub-authors {
+    font-size: 13px;
+    color: var(--ink-mid);
+    margin-bottom: 6px;
+  }
+  .pub-links { display: flex; gap: 10px; }
+  .pub-link {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-mid);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .pub-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* ── responsive ── */
+  @media (max-width: 900px) {
+    .site-wrap { grid-template-columns: 1fr; }
+    aside {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--rule);
+      padding: 2rem 1.5rem 1.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .photo-wrap { margin-bottom: 0; }
+    .sidebar-footer, .sidebar-links { display: none; }
+    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    nav a { padding: 0; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    .interests-grid { grid-template-columns: 1fr; }
+    .about-intro { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="site-wrap">
+
+  <!-- Sidebar -->
+  <aside>
+    <div class="photo-wrap">
+      <img src="https://juntaochen1.github.io/images/Photo_Chen.jpg" alt="Juntao Chen" onerror="this.style.background='#ddd';this.alt='JC'">
+    </div>
+    <div class="name">Juntao Chen</div>
+    <div class="title-line">Assistant Professor<br>Fordham University</div>
+
+        <nav>
+      <a href="#about" class="active">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="students.html">Group</a>
+      <a href="bio.html">Bio</a>
+    </nav>
+
+    <div class="sidebar-links">
+      <a href="https://scholar.google.com/citations?user=NUsOZVwAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Juntao_Chen3">ResearchGate</a>
+      
+    </div>
+
+    <div class="sidebar-footer">New York, NY</div>
+  </aside>
+
+  <!-- Main -->
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-label">About</div>
+      <p class="about-body">
+        I am an assistant professor in the <a href="https://www.fordham.edu/info/20344/computer_and_information_sciences/" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)">Department of Computer and Information Sciences</a> at Fordham University. My work sits at the intersection of AI and machine learning, security, and optimization, with a focus on systems that must remain safe and resilient under adversarial conditions. I received my PhD in Electrical Engineering from NYU Tandon in 2020.
+      </p>
+      <div class="contact-line">LL610A, 113 W 60th St, New York, NY 10023</div>
+      <div class="contact-line"><span>jchen504(at)fordham.edu</span></div>
+
+      <div class="openings">
+        <div class="pill"><strong>PhD openings</strong> — I am looking for self-motivated PhD students in trustworthy AI, reinforcement learning, quantum AI, and CPS security. Send your CV, transcript, and a brief research statement.</div>
+        <div class="pill"><strong>Masters &amp; undergrad</strong> — Research opportunities available in AI, smart cities, and cybersecurity. Reach out with your CV and brief research statement.</div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <div class="section-label">Research Interests</div>
+      <div class="interests-grid">
+        <div class="interest-tag">Cyber-Physical Systems</div>
+        <div class="interest-tag">Security &amp; Resilience</div>
+        <div class="interest-tag">Reinforcement Learning</div>
+        <div class="interest-tag">Game &amp; Decision Theory</div>
+        <div class="interest-tag">Quantum AI &amp; Security</div>
+        <div class="interest-tag">Learning &amp; Optimization</div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+      <div class="section-label">Latest News</div>
+      <div class="news-list">
+        <div class="news-item">
+          <div class="news-date">Feb 2026</div>
+          <div class="news-text">Fernando's work on <a href="https://arxiv.org/pdf/2508.07452">Stackelberg Coupling of Online Representation Learning and RL</a> is accepted to ICLR 2026.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Jan 2026</div>
+          <div class="news-text">New paper on <a href="https://link.springer.com/article/10.1007/s42484-026-00353-0">differentiable architecture search for adversarially robust quantum computer vision</a> published in Quantum Machine Intelligence.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Aug 2025</div>
+          <div class="news-text">Khalifa joined the RegLab at Stanford University as a research fellow.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Jul 2025</div>
+          <div class="news-text"><span class="badge grant">Grant</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2530916">NSF grant</a> awarded to develop a programmable wireless architecture with formal policy assurance.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Jun 2025</div>
+          <div class="news-text">Organizing the <a href="https://sites.google.com/fordham.edu/qsec2025/home">Workshop on Quantum Computing Security, Privacy, and Resilience (Q-SEC)</a> at IEEE Quantum Week 2025.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Mar 2025</div>
+          <div class="news-text">Khalifa presents our work on efficient data encoding in quantum AI systems at CVPR 2025. <a href="https://arxiv.org/pdf/2503.21815">Paper</a></div>
+        </div>
+      </div>
+
+      <div id="news-more">
+        <div class="news-list">
+          <div class="news-item">
+            <div class="news-date">Mar 2025</div>
+            <div class="news-text"><span class="badge grant">Grant</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2408229">NSF grant</a> to upgrade Fordham's GPU cluster for multidisciplinary research.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Feb 2024</div>
+            <div class="news-text"><span class="badge grant">Grant</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343535">NSF grant</a> to investigate resilient quantum learning systems.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Jan 2024</div>
+            <div class="news-text">Paper on <a href="https://arxiv.org/pdf/2401.01963.pdf">cyber-physical resiliency for power grids under IoT botnet attacks</a> accepted in IEEE Transactions on Control Systems Technology.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Apr 2023</div>
+            <div class="news-text"><span class="badge award">Award</span> Distinguished Research Award for junior faculty from Fordham University Research Council.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Mar 2023</div>
+            <div class="news-text">Fordham-IBM Research Fellowship awarded to support collaborative work on dynamic adversarial AI.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Aug 2023</div>
+            <div class="news-text"><span class="badge grant">Grant</span> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788">NSF grant</a> on system-level quantum computing cybersecurity research and education.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">May 2021</div>
+            <div class="news-text"><span class="badge award">Award</span> Alexander Hessel Award for Best PhD Dissertation in Electrical Engineering, NYU.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Sep 2020</div>
+            <div class="news-text">Joined the CIS Department at Fordham University as a tenure-track assistant professor.</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="toggle-news" onclick="toggleNews(this)">Show older news ↓</button>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <div class="section-label">Selected Publications</div>
+      <div class="pub-list">
+        <div class="pub-item">
+          <div class="pub-venue">ICLR 2026</div>
+          <div class="pub-title">Stackelberg Coupling of Online Representation Learning and Reinforcement Learning</div>
+          <div class="pub-authors">F. Martinez, J. Chen, Y. Lu et al.</div>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2508.07452">arXiv</a>
+          </div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-venue">Quantum Machine Intelligence, 2026</div>
+          <div class="pub-title">Differentiable Architecture Search for Adversarially Robust Quantum Computer Vision</div>
+          <div class="pub-authors">J. Chen et al.</div>
+          <div class="pub-links">
+            <a class="pub-link" href="https://link.springer.com/article/10.1007/s42484-026-00353-0">DOI</a>
+          </div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-venue">IEEE Trans. Control Systems Technology, 2024</div>
+          <div class="pub-title">Integrated Cyber-Physical Resiliency for Power Grids under IoT-Enabled Dynamic Botnet Attacks</div>
+          <div class="pub-authors">J. Chen et al.</div>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2401.01963.pdf">arXiv</a>
+          </div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-venue">CVPR 2025</div>
+          <div class="pub-title">ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks</div>
+          <div class="pub-authors">K. Afane*, G. Ebbrecht*, Y. Wang, J. Chen, J. Farooq</div>
+          <div class="pub-links">
+            <a class="pub-link" href="https://arxiv.org/pdf/2503.21815">arXiv</a>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:1.5rem; font-size:13px; color:var(--ink-light);">
+        Full list on <a href="https://scholar.google.com/citations?user=NUsOZVwAAAAJ&hl=en" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)">Google Scholar</a> · <a href="https://juntaochen1.github.io/publications/" style="color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule)">All publications →</a>
+      </p>
+    </section>
+
+  </main>
+</div>
+
+
+<script>
+function toggleNews(btn) {
+  const more = document.getElementById('news-more');
+  const open = more.style.display === 'block';
+  more.style.display = open ? 'none' : 'block';
+  btn.textContent = open ? 'Show older news ↓' : 'Hide older news ↑';
+}
+
+// active nav on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('nav a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 120) current = s.id;
+  });
+  navLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+});
+</script>

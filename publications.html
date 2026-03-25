@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — Juntao Chen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #111111; --ink-mid: #3a3a3a; --ink-light: #666666;
+    --rule: #e8e6e0; --bg: #fafaf8; --bg-panel: #f3f1ec;
+    --accent: #1a3a5c; --accent-warm: #c0392b;
+    --mono: 'DM Mono', monospace; --serif: 'DM Serif Display', serif; --sans: 'DM Sans', sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--ink); font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  .site-wrap { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+  aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--bg); border-right: 1px solid var(--rule); display: flex; flex-direction: column; padding: 3rem 2rem 2rem; }
+  .photo-wrap { width: 88px; height: 88px; border-radius: 50%; overflow: hidden; border: 2px solid var(--rule); margin-bottom: 1.5rem; flex-shrink: 0; }
+  .photo-wrap img { width: 100%; height: 100%; object-fit: cover; }
+  .name { font-family: var(--serif); font-size: 22px; letter-spacing: -0.02em; line-height: 1.2; color: var(--ink); margin-bottom: 0.3rem; }
+  .title-line { font-size: 12px; font-weight: 400; color: var(--ink-mid); letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.5; margin-bottom: 2rem; }
+  nav { flex: 1; }
+  nav a { display: block; font-size: 13px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; padding: 6px 0; transition: color 0.15s; }
+  nav a:hover, nav a.active { color: var(--accent); }
+  .sidebar-links { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 8px; }
+  .sidebar-links a { font-family: var(--mono); font-size: 11px; color: var(--ink-light); text-decoration: none; transition: color 0.15s; display: flex; align-items: center; gap: 6px; }
+  .sidebar-links a:hover { color: var(--accent); }
+  .sidebar-links a::before { content: '↗'; font-size: 10px; }
+  .sidebar-footer { margin-top: auto; padding-top: 2rem; font-size: 11px; color: var(--ink-light); font-family: var(--mono); }
+  main { padding: 4rem 5rem 6rem 5.5rem; max-width: 900px; }
+  section { margin-bottom: 4.5rem; }
+  .section-label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); margin-bottom: 2rem; display: flex; align-items: center; gap: 12px; }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .page-title { font-family: var(--serif); font-size: 36px; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 0.75rem; font-weight: 400; }
+  .page-sub { font-size: 14px; color: var(--ink-light); margin-bottom: 2.5rem; }
+  .page-sub a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: border-color 0.15s; }
+  .page-sub a:hover { border-color: var(--accent); }
+  .filter-bar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 2.5rem; }
+  .filter-btn { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; border: 1px solid var(--rule); background: transparent; color: var(--ink-light); padding: 6px 14px; border-radius: 3px; cursor: pointer; transition: all 0.15s; }
+  .filter-btn:hover, .filter-btn.active { color: var(--accent); border-color: var(--accent); background: var(--bg-panel); }
+  .pub-entry { display: grid; grid-template-columns: 48px 1fr; gap: 0 1.5rem; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .pub-entry:first-child { border-top: 1px solid var(--rule); }
+  .pub-entry.hidden { display: none; }
+  .pub-num { font-family: var(--mono); font-size: 11px; color: var(--ink-light); padding-top: 3px; text-align: right; }
+  .pub-venue { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-warm); margin-bottom: 5px; }
+  .pub-title { font-size: 15px; font-weight: 500; color: var(--ink); margin-bottom: 5px; line-height: 1.4; }
+  .pub-authors { font-size: 13px; color: var(--ink-mid); margin-bottom: 7px; }
+  .pub-authors strong { color: var(--ink-mid); font-weight: 500; }
+  .pub-links { display: flex; gap: 12px; flex-wrap: wrap; }
+  .pub-link { font-family: var(--mono); font-size: 11px; color: var(--ink-mid); text-decoration: none; border-bottom: 1px solid var(--rule); transition: all 0.15s; }
+  .pub-link:hover { color: var(--accent); border-color: var(--accent); }
+  .book-card { border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 16px 20px; border-radius: 0 4px 4px 0; margin-bottom: 12px; background: var(--bg-panel); }
+  .book-card a { color: var(--accent); text-decoration: none; font-weight: 500; font-size: 14px; line-height: 1.4; display: block; margin-bottom: 4px; }
+  .book-card .book-meta { font-size: 12px; color: var(--ink-light); font-family: var(--mono); }
+  .diss-box { border: 1px solid var(--rule); padding: 20px 24px; border-radius: 4px; background: var(--bg-panel); }
+  .diss-title { font-family: var(--serif); font-size: 17px; color: var(--ink); line-height: 1.4; margin-bottom: 8px; font-style: italic; }
+  .diss-meta { font-size: 13px; color: var(--ink-mid); margin-bottom: 10px; }
+  .diss-award { font-family: var(--mono); font-size: 11px; color: #7a4800; background: #fdf3e0; border: 1px solid #f0d99a; padding: 5px 10px; border-radius: 3px; display: inline-block; }
+  @media (max-width: 900px) {
+    .site-wrap { grid-template-columns: 1fr; }
+    aside { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--rule); padding: 2rem 1.5rem 1.5rem; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem; }
+    .photo-wrap { margin-bottom: 0; }
+    .sidebar-footer, .sidebar-links { display: none; }
+    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    nav a { padding: 0; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    .pub-entry { grid-template-columns: 36px 1fr; gap: 0 1rem; }
+    .page-title { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="site-wrap">
+  <aside>
+    <div class="photo-wrap"><img src="https://juntaochen1.github.io/images/Photo_Chen.jpg" alt="Juntao Chen"></div>
+    <div class="name">Juntao Chen</div>
+    <div class="title-line">Assistant Professor<br>Fordham University</div>
+        <nav>
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html" class="active">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="students.html">Group</a>
+      <a href="bio.html">Bio</a>
+    </nav>
+    <div class="sidebar-links">
+      <a href="https://scholar.google.com/citations?user=NUsOZVwAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Juntao_Chen3">ResearchGate</a>
+      
+    </div>
+    <div class="sidebar-footer">New York, NY</div>
+  </aside>
+
+  <main>
+    <div style="margin-bottom:3.5rem;">
+      <h1 class="page-title">Publications</h1>
+      <p class="page-sub">Complete list on <a href="https://scholar.google.com/citations?hl=en&user=NUsOZVwAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>. Student co-authors marked with *.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterPubs('all',this)">All</button>
+      <button class="filter-btn" onclick="filterPubs('journal',this)">Journals</button>
+      <button class="filter-btn" onclick="filterPubs('conference',this)">Conferences</button>
+      <button class="filter-btn" onclick="filterPubs('book',this)">Books</button>
+    </div>
+
+    <!-- Books -->
+    <section id="sec-book">
+      <div class="section-label">Books</div>
+      <div class="book-card">
+        <a href="https://www.springer.com/gp/book/9783030234430">A Game- and Decision-Theoretic Approach to Resilient Interdependent Network Analysis and Design</a>
+        <div class="book-meta">J. Chen and Q. Zhu · Springer, 2020</div>
+      </div>
+      <div class="book-card">
+        <a href="https://www.springer.com/gp/book/9783030647926">Decision and Game Theory for Security — GameSec 2020 Proceedings (Eds.)</a>
+        <div class="book-meta">Q. Zhu, J. Baras, R. Poovendran, J. Chen · Springer, 2020</div>
+      </div>
+    </section>
+
+    <!-- Journals -->
+    <section id="sec-journal">
+      <div class="section-label">Journal Papers</div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J1</div><div>
+        <div class="pub-venue">Quantum Machine Intelligence · 2026</div>
+        <div class="pub-title">Differentiable Architecture Search for Adversarially Robust Quantum Computer Vision</div>
+        <div class="pub-authors">K. Afane*, Q. Long*, H. Shen, Y. Mao, J. Farooq, Y. Wang, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://link.springer.com/article/10.1007/s42484-026-00353-0">DOI</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J2</div><div>
+        <div class="pub-venue">IEEE Transactions on Network and Service Management · 2025</div>
+        <div class="pub-title">Multi-agent Resource Orchestration Based on D3QN for Network Slicing in 5G Edge-Cloud Networks</div>
+        <div class="pub-authors">X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J3</div><div>
+        <div class="pub-venue">IEEE Transactions on Mobile Computing · 2025</div>
+        <div class="pub-title">Dynamic Multi-Modal UAV Control for Optimized Coverage and Backhaul Connectivity in Spatially Unstructured and Dispersed User Environments</div>
+        <div class="pub-authors">Y. Wang, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J4</div><div>
+        <div class="pub-venue">IEEE Open Journal of the Communications Society · 2025</div>
+        <div class="pub-title">Communication Systems for Autonomous eVTOL: Regulatory Challenges, Emerging Technologies, and Future Directions</div>
+        <div class="pub-authors">I. Aryendu, B. Mak, E. Forbes, <strong>J. Chen</strong>, J. Farooq, Y. Wang</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J5</div><div>
+        <div class="pub-venue">IEEE Transactions on Quantum Engineering · 2025</div>
+        <div class="pub-title">Hardware-aware and Resource-efficient Circuit Packing and Scheduling on Trapped-Ion Quantum Computers</div>
+        <div class="pub-authors">M. Palma, S. Kan, W. Wei, <strong>J. Chen</strong>, K. Hua, S. Mouradian, Y. Mao</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J6</div><div>
+        <div class="pub-venue">IEEE Networking Letters · 2025</div>
+        <div class="pub-title">Symbolic and Safety-Centric Formal Verification of MAVLink for Autonomous eVTOL Systems</div>
+        <div class="pub-authors">B. Mak, J. Yang, <strong>J. Chen</strong>, P. Ratazzi, Y. Wang</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J7</div><div>
+        <div class="pub-venue">IEEE Transactions on Information Forensics and Security · 2025</div>
+        <div class="pub-title">Game-Theoretic Neyman-Pearson Detection to Combat Strategic Evasion</div>
+        <div class="pub-authors">Y. Hu, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J8</div><div>
+        <div class="pub-venue">Journal of Urban Health · 2025</div>
+        <div class="pub-title">Analyzing and Optimizing the Distribution of Blood Lead Level Testing for Children in New York City: A Data-Driven Approach</div>
+        <div class="pub-authors">K. Afane*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J9</div><div>
+        <div class="pub-venue">IEEE Transactions on Quantum Engineering · 2024</div>
+        <div class="pub-title">A Quantum-Classical Collaborative Training Architecture Based on Quantum State Fidelity</div>
+        <div class="pub-authors">R. L'Abbate, A. D'Onofrio, S. Stein, S. Chen, A. Li, P-Y. Chen, <strong>J. Chen</strong>, Y. Mao</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J10</div><div>
+        <div class="pub-venue">IEEE Trans. Control Systems Technology · 2024</div>
+        <div class="pub-title">Integrated Cyber-Physical Resiliency for Power Grids under IoT-Enabled Dynamic Botnet Attacks</div>
+        <div class="pub-authors">Y. Zhao, <strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2401.01963.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J11</div><div>
+        <div class="pub-venue">The Electricity Journal · 2023</div>
+        <div class="pub-title">Enhancing Equitable Resilience of Urban Energy Systems via Strategic Planning of EV Charging Infrastructure</div>
+        <div class="pub-authors">G. Ebbrecht*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J12</div><div>
+        <div class="pub-venue">IEEE Internet of Things Journal · 2023</div>
+        <div class="pub-title">QoS Based Contract Design for Profit Maximization in IoT-Enabled Data Markets</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, J. Farooq, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2301.04691.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J13</div><div>
+        <div class="pub-venue">IEEE Trans. Automation Science and Engineering · 2023</div>
+        <div class="pub-title">A Cross-Layer Design Approach to Strategic Cyber Defense and Robust Switching Control of Cyber-Physical Wind Energy Systems</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J14</div><div>
+        <div class="pub-venue">IEEE Control Systems Letters · 2022</div>
+        <div class="pub-title">Resilient and Distributed Discrete Optimal Transport with Deceptive Adversary: A Game-Theoretic Approach</div>
+        <div class="pub-authors">J. Hughes*, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2106.07455.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J15</div><div>
+        <div class="pub-venue">IEEE Trans. Network Science and Engineering · 2021</div>
+        <div class="pub-title">A Dynamic Game Approach to Designing Secure Interdependent IoT-Enabled Infrastructure Network</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, C. Touati, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2108.13159.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J16</div><div>
+        <div class="pub-venue">IEEE Trans. Signal and Information Processing over Networks · 2021</div>
+        <div class="pub-title">Optimal Curing Strategy for Competing Epidemics Spreading over Complex Networks</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Y. Huang, R. Zhang, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2011.14262.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J17</div><div>
+        <div class="pub-venue">Dynamic Games and Applications, Springer · 2021</div>
+        <div class="pub-title">Dynamic Contract Design for Systemic Cyber Risk Management of Interdependent Enterprise Networks</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu, T. Başar</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1908.04431.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J18</div><div>
+        <div class="pub-venue">IEEE Control Systems Letters · 2021</div>
+        <div class="pub-title">Distributed Stabilization of Two Interdependent Markov Jump Linear Systems with Partial Information</div>
+        <div class="pub-authors">G. Peng, <strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2003.06493.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J19</div><div>
+        <div class="pub-venue">IEEE Trans. Information Forensics and Security · 2020</div>
+        <div class="pub-title">A Dynamic Game Approach to Strategic Design of Secure and Resilient Infrastructure Network</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, C. Touati, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1906.07185.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J20</div><div>
+        <div class="pub-venue">IEEE Trans. Control of Network Systems · 2020</div>
+        <div class="pub-title">Optimal Secure Design of Two-Layer IoT Network</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, C. Touati, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1707.07046v2.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J21</div><div>
+        <div class="pub-venue">IEEE Trans. Control of Network Systems · 2020</div>
+        <div class="pub-title">Control of Multi-Layer Mobile Autonomous Systems in Adversarial Environments: A Games-in-Games Approach</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1912.04082.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J22</div><div>
+        <div class="pub-venue">National Science Review · 2020</div>
+        <div class="pub-title">Dynamic Games for Secure and Resilient Control System Design</div>
+        <div class="pub-authors">Y. Huang, <strong>J. Chen</strong>, L. Huang, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwz218/5707431">PDF</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J23</div><div>
+        <div class="pub-venue">IEEE Trans. Information Forensics and Security · 2019</div>
+        <div class="pub-title">Interdependent Strategic Security Risk Management with Bounded Rationality in the Internet of Things</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1905.09341.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J24</div><div>
+        <div class="pub-venue">IEEE Trans. Information Forensics and Security · 2019</div>
+        <div class="pub-title">iSTRICT: An Interdependent Strategic Trust Mechanism for the Cloud-Enabled Internet of Controlled Things</div>
+        <div class="pub-authors">J. Pawlick, <strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1805.00403.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J25</div><div>
+        <div class="pub-venue">IEEE Trans. Smart Grid · 2018</div>
+        <div class="pub-title">A Stackelberg Game Approach for Two-Level Distributed Energy Management in Smart Grids</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1608.08253.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J26</div><div>
+        <div class="pub-venue">IEEE Trans. Information Forensics and Security · 2017</div>
+        <div class="pub-title">Security as a Service for Cloud-Enabled Internet of Controlled Things under Advanced Persistent Threats: A Contract Design Approach</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J27</div><div>
+        <div class="pub-venue">IEEE Trans. Smart Grid · 2017</div>
+        <div class="pub-title">A Game-Theoretic Framework for Resilient and Distributed Generation Control of Renewable Energies in Microgrids</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1601.04583.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="journal"><div class="pub-num">J28</div><div>
+        <div class="pub-venue">ACM SIGMETRICS Performance Evaluation Review · 2017</div>
+        <div class="pub-title">A Dynamic Game Analysis and Design of Infrastructure Network Protection and Recovery</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, C. Touati, Q. Zhu</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/1707.07054.pdf">arXiv</a></div>
+      </div></div>
+    </section>
+
+    <!-- Conferences -->
+    <section id="sec-conference">
+      <div class="section-label">Conference Papers</div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C1</div><div>
+        <div class="pub-venue">ICLR 2026</div>
+        <div class="pub-title">Stackelberg Coupling of Online Representation Learning and Reinforcement Learning</div>
+        <div class="pub-authors">F. Martinez*, T. Li, Y. Lu, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2508.07452">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C2</div><div>
+        <div class="pub-venue">NDSS FutureG Workshop · 2026</div>
+        <div class="pub-title">PROMPTGUARD: Zero Trust Prompting for Securing LLM-Driven O-RAN Control</div>
+        <div class="pub-authors">Y. Wang, X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C3</div><div>
+        <div class="pub-venue">CVPR 2025</div>
+        <div class="pub-title">ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks</div>
+        <div class="pub-authors">K. Afane*, G. Ebbrecht*, Y. Wang, <strong>J. Chen</strong>, J. Farooq</div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2503.21815">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C4</div><div>
+        <div class="pub-venue">IEEE QCE · 2025</div>
+        <div class="pub-title">Power Side-Channel Vulnerabilities in Distributed Quantum System with Classical Communication</div>
+        <div class="pub-authors">Q. Long*, K. Ponte, Y. Wang, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C5</div><div>
+        <div class="pub-venue">IEEE QCE · 2025</div>
+        <div class="pub-title">HCVS-Net: Hybrid Continuous-Variable Squeezing Network</div>
+        <div class="pub-authors">X. Li, Y. Peng, <strong>J. Chen</strong>, Y. Wang</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C6</div><div>
+        <div class="pub-venue">IEEE Conference on Big Data · 2025</div>
+        <div class="pub-title">SCOUT: A Defense Framework Against Advanced Data Poisoning Attacks in Fine-Tuned Language Models</div>
+        <div class="pub-authors">K. Afane*, A. Satyam*, K. Chen*, T. Li, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C7</div><div>
+        <div class="pub-venue">IEEE Conference on Big Data · 2025</div>
+        <div class="pub-title">Can LLMs Help Allocate Public Health Resources? A Case Study on Childhood Lead Testing</div>
+        <div class="pub-authors">K. Afane*, Y. Wang, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C8</div><div>
+        <div class="pub-venue">IEEE ICC · 2025</div>
+        <div class="pub-title">Joint Admission Control and Resource Provisioning for URLLC Traffic in NextG RAN: A Constrained Reinforcement Learning Approach</div>
+        <div class="pub-authors">X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C9</div><div>
+        <div class="pub-venue">IEEE COINS · 2025</div>
+        <div class="pub-title">Real-Time Multiple Obstacle Avoidance and Navigation in Unknown Environments with Applications to Indoor Delivery Robots</div>
+        <div class="pub-authors">Y. Wang, U. Pillai, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C10</div><div>
+        <div class="pub-venue">NDSS FutureG Workshop · 2025</div>
+        <div class="pub-title">LLM-xApp: A Large Language Model Empowered Radio Resource Management xApp for 5G O-RAN</div>
+        <div class="pub-authors">X. Wu, Y. Wang, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C11</div><div>
+        <div class="pub-venue">IEEE ICC Aerial &amp; Space Networks Workshop · 2025</div>
+        <div class="pub-title">Coordinated UAV Deployment and Task Offloading in UAV-Assisted LEO Satellite Edge Computing Systems via Proximal Policy Optimization</div>
+        <div class="pub-authors">Y. Wang, X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C12</div><div>
+        <div class="pub-venue">IEEE INFOCOM NGResNet Workshop · 2025</div>
+        <div class="pub-title">LLM-Driven Agentic AI Approach to Enhanced O-RAN Resilience in Next-Generation Networks</div>
+        <div class="pub-authors">X. Wu, Y. Wang, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C13</div><div>
+        <div class="pub-venue">IEEE INFOCOM NGResNet Workshop · 2025</div>
+        <div class="pub-title">Collaborative Resilience for Multi-Layer Heterogeneous Robotic Systems</div>
+        <div class="pub-authors">G. Ebbrecht*, J. Hughes*, <strong>J. Chen</strong>, J. Farooq</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C14</div><div>
+        <div class="pub-venue">AAAI Quantum Computing &amp; AI Workshop · 2025</div>
+        <div class="pub-title">Ensembling Personalized Quantum Models with Local Differential Privacy via Meta-Learning</div>
+        <div class="pub-authors">F. Xhelollari*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C15</div><div>
+        <div class="pub-venue">AAAI PRL Workshop · 2025</div>
+        <div class="pub-title">SPRIG: Stackelberg Perception-Reinforcement Learning with Internal Game Dynamics</div>
+        <div class="pub-authors">F. Martinez*, <strong>J. Chen</strong>, Y. Lu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C16</div><div>
+        <div class="pub-venue">IEEE CNS Cyber Resilience Workshop · 2024</div>
+        <div class="pub-title">SecFedDrive: Securing Federated Learning for Autonomous Driving Against Backdoor Attacks</div>
+        <div class="pub-authors">R. Kumar*, G. Ebbrecht*, J. Farooq, W. Wei, Y. Mao, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C17</div><div>
+        <div class="pub-venue">IEEE Conference on Big Data CyberHunt Workshop · 2024</div>
+        <div class="pub-title">Next-Generation Phishing: How LLM Agents Empower Cyber Attackers</div>
+        <div class="pub-authors">K. Afane*, W. Wei, Y. Mao, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C18</div><div>
+        <div class="pub-venue">IEEE CloudNet · 2024</div>
+        <div class="pub-title">Multi-agent Distributed Decentralized Dynamic Resource Orchestration in 5G Edge-Cloud Networks</div>
+        <div class="pub-authors">X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C19</div><div>
+        <div class="pub-venue">IEEE QCE · 2024</div>
+        <div class="pub-title">Scalable Circuit Cutting and Scheduling in a Resource-constrained and Distributed Quantum System</div>
+        <div class="pub-authors">S. Kan, Z. Du, M. Palma, S. Stein, C. Liu, W. Wei, <strong>J. Chen</strong>, A. Li, Y. Mao</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C20</div><div>
+        <div class="pub-venue">IEEE QCE · 2024</div>
+        <div class="pub-title">Benchmarking Optimizers for Qumode State Preparation with Variational Quantum Algorithms</div>
+        <div class="pub-authors">S. Kan, M. Palma, Z. Du, S. Stein, C. Liu, <strong>J. Chen</strong>, A. Li, Y. Mao</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C21</div><div>
+        <div class="pub-venue">IEEE ICC Cloud Continuum Workshop · 2024</div>
+        <div class="pub-title">Adaptive Risk-Aware Resource Orchestration for 5G Microservices over Multi-Tier Edge-Cloud Systems</div>
+        <div class="pub-authors">X. Wu, J. Farooq, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C22</div><div>
+        <div class="pub-venue">IEEE ICDCS · 2024</div>
+        <div class="pub-title">Demo: Visualizing the Shadows: Unveiling Data Poisoning Behaviors in Federated Learning</div>
+        <div class="pub-authors">X. Zhang, J. Zhang, K. Chow, <strong>J. Chen</strong>, Y. Mao, M. Rahouti, X. Li, Y. Liu, W. Wei</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C23</div><div>
+        <div class="pub-venue">IEEE CNS Cyber Resilience Workshop · 2023</div>
+        <div class="pub-title">Adversarial Manipulation of Learning in Linear-Quadratic Zero-Sum Differential Games via Cost Poisoning</div>
+        <div class="pub-authors">S. Do*, G. Ebbrecht*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C24</div><div>
+        <div class="pub-venue">SIAM CT · 2023</div>
+        <div class="pub-title">Security Investment over Networks with Bounded Rational Agents: Analysis and Distributed Algorithm</div>
+        <div class="pub-authors">J. Hughes*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C25</div><div>
+        <div class="pub-venue">IEEE PESGM · 2023</div>
+        <div class="pub-title">Enhancing Cyber-Physical Resiliency of Power Grids under IoT-Enabled Dynamic Botnet Attacks</div>
+        <div class="pub-authors"><strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C26</div><div>
+        <div class="pub-venue">CISS · 2023</div>
+        <div class="pub-title">Data-Driven Analysis and Optimization for Urban Energy Systems Equitable Resilience</div>
+        <div class="pub-authors">G. Ebbrecht*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C27</div><div>
+        <div class="pub-venue">IEEE GLOBECOM · 2022</div>
+        <div class="pub-title">Differentially Private ADMM-Based Distributed Discrete Optimal Transport for Resource Allocation</div>
+        <div class="pub-authors">J. Hughes*, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2211.17070.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C28</div><div>
+        <div class="pub-venue">IEEE INFOCOM Workshops · 2022</div>
+        <div class="pub-title">Collaborative Learning for Large-Scale Discrete Optimal Transport under Incomplete Populational Information</div>
+        <div class="pub-authors">N. Kaur*, <strong>J. Chen</strong></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C29</div><div>
+        <div class="pub-venue">CISS · 2022</div>
+        <div class="pub-title">VaxEquity: A Data-Driven Risk Assessment and Optimization Framework for Equitable Vaccine Distribution</div>
+        <div class="pub-authors">N. Kaur*, J. Hughes*, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2201.07321.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C30</div><div>
+        <div class="pub-venue">CISS · 2022</div>
+        <div class="pub-title">Transactive Resilience in Renewable Microgrids: A Contract-Theoretic Approach</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Y. Huang, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C31</div><div>
+        <div class="pub-venue">IEEE CDC · 2021</div>
+        <div class="pub-title">Defending an Asset with Partial Information and Selected Observations: A Differential Game Framework</div>
+        <div class="pub-authors">Y. Huang, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C32</div><div>
+        <div class="pub-venue">CISS · 2021</div>
+        <div class="pub-title">Fair and Distributed Dynamic Optimal Transport for Resource Allocation over Networks</div>
+        <div class="pub-authors">J. Hughes*, <strong>J. Chen</strong></div>
+        <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2103.16618.pdf">arXiv</a></div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C33</div><div>
+        <div class="pub-venue">American Control Conference (ACC) · 2021</div>
+        <div class="pub-title">Locally-Aware Constrained Games on Networks</div>
+        <div class="pub-authors">G. Peng, T. Li, S. Liu, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C34</div><div>
+        <div class="pub-venue">GameSec · 2020</div>
+        <div class="pub-title">MASAGE: Model-Agnostic Sequential and Adaptive Game Estimation</div>
+        <div class="pub-authors">Y. Pan, G. Peng, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C35</div><div>
+        <div class="pub-venue">SPIE Sensors and Systems for Space Applications · 2019</div>
+        <div class="pub-title">A Games-in-Games Approach to Mosaic Command and Control Design of Dynamic Network-of-Networks for Secure and Resilient Multi-Domain Operations</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C36</div><div>
+        <div class="pub-venue">Allerton · 2018</div>
+        <div class="pub-title">A Differential Game Approach to Dynamic Contract Design for Systemic Cyber Risk Management under Asymmetric Information</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C37</div><div>
+        <div class="pub-venue">CISS · 2018</div>
+        <div class="pub-title">Security Investment under Cognitive Constraints: A Gestalt Nash Equilibrium Approach</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C38</div><div>
+        <div class="pub-venue">Winter Simulation Conference (WSC) · 2018</div>
+        <div class="pub-title">Distributed and Optimal Resilient Control of Large-Scale Interdependent Critical Infrastructures</div>
+        <div class="pub-authors">L. Huang, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C39</div><div>
+        <div class="pub-venue">IEEE GLOBECOM · 2017</div>
+        <div class="pub-title">Heterogeneous Multi-Layer Adversarial Network Design for the IoT-Enabled Infrastructures</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, C. Touati, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C40</div><div>
+        <div class="pub-venue">GameSec · 2017</div>
+        <div class="pub-title">A Large-Scale Markov Game Approach to Dynamic Protection of Interdependent Infrastructure Networks</div>
+        <div class="pub-authors">L. Huang, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C41</div><div>
+        <div class="pub-venue">IEEE PESGM · 2017</div>
+        <div class="pub-title">Interdependent Strategic Cyber Defense and Robust Switching Control Design for Wind Energy Systems</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C42</div><div>
+        <div class="pub-venue">CPS Week MSCPES Workshop · 2017</div>
+        <div class="pub-title">A Factored MDP Approach to Optimal Mechanism Design for Resilient Large-Scale Interdependent Critical Infrastructures</div>
+        <div class="pub-authors">L. Huang, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C43</div><div>
+        <div class="pub-venue">CPS Week CySWater Workshop · 2017</div>
+        <div class="pub-title">Electric Power Dependent Dynamic Tariffs for Water Distribution Systems</div>
+        <div class="pub-authors">V. Kurian, <strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C44</div><div>
+        <div class="pub-venue">GameSec · 2016</div>
+        <div class="pub-title">Optimal Contract Design under Asymmetric Information for Cloud-Enabled Internet of Controlled Things</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C45</div><div>
+        <div class="pub-venue">IEEE CDC · 2016</div>
+        <div class="pub-title">Resilient and Decentralized Control of Multi-level Robotic Networks to Maintain Connectivity under Adversarial Attacks</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C46</div><div>
+        <div class="pub-venue">American Control Conference (ACC) · 2016</div>
+        <div class="pub-title">Interdependent Network Formation Games with an Application to Critical Infrastructures</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C47</div><div>
+        <div class="pub-venue">IEEE PESGM · 2015</div>
+        <div class="pub-title">Optimal Allocation of Robotic Wind Turbine Inspectors in a Wind Farm</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, Q. Zhu</div>
+      </div></div>
+
+      <div class="pub-entry" data-type="conference"><div class="pub-num">C48</div><div>
+        <div class="pub-venue">IEEE SmartGridComm · 2015</div>
+        <div class="pub-title">Resilient Control Design for Wind Turbines Using Markov Jump Linear System Model with Levy Noise</div>
+        <div class="pub-authors"><strong>J. Chen</strong>, L. Zhou, Q. Zhu</div>
+      </div></div>
+    </section>
+
+    <!-- Dissertation -->
+    <section id="sec-diss">
+      <div class="section-label">Dissertation</div>
+      <div class="diss-box">
+        <div class="diss-title">"Trustworthy Cyber-Physical Networks by Design: Toward a System Scientific Foundation for Security and Resilience in a Connected World"</div>
+        <div class="diss-meta">PhD Dissertation · NYU Tandon School of Engineering · 2020</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+          <a class="pub-link" href="https://juntaochen1.github.io/files/PhD Dissertation Juntao.pdf">PDF</a>
+          <span class="diss-award">Alexander Hessel Award — Best PhD Dissertation in EE, NYU</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+
+<script>
+function filterPubs(type, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const j = document.getElementById('sec-journal');
+  const c = document.getElementById('sec-conference');
+  const b2 = document.getElementById('sec-book');
+  const d = document.getElementById('sec-diss');
+
+  if (type === 'all') {
+    [j, c, b2, d].forEach(s => { if(s) s.style.display = ''; });
+    document.querySelectorAll('.pub-entry').forEach(el => el.classList.remove('hidden'));
+  } else if (type === 'journal') {
+    if(j) j.style.display = '';
+    if(c) c.style.display = 'none';
+    if(b2) b2.style.display = 'none';
+    if(d) d.style.display = 'none';
+    document.querySelectorAll('.pub-entry').forEach(el => {
+      el.classList.toggle('hidden', el.dataset.type !== 'journal');
+    });
+  } else if (type === 'conference') {
+    if(j) j.style.display = 'none';
+    if(c) c.style.display = '';
+    if(b2) b2.style.display = 'none';
+    if(d) d.style.display = 'none';
+    document.querySelectorAll('.pub-entry').forEach(el => {
+      el.classList.toggle('hidden', el.dataset.type !== 'conference');
+    });
+  } else if (type === 'book') {
+    if(j) j.style.display = 'none';
+    if(c) c.style.display = 'none';
+    if(b2) b2.style.display = '';
+    if(d) d.style.display = '';
+    document.querySelectorAll('.pub-entry').forEach(el => el.classList.add('hidden'));
+  }
+}
+</script>

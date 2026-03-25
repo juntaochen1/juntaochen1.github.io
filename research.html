@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Juntao Chen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #111111; --ink-mid: #3a3a3a; --ink-light: #666666;
+    --rule: #e8e6e0; --bg: #fafaf8; --bg-panel: #f3f1ec;
+    --accent: #1a3a5c; --accent-warm: #c0392b;
+    --mono: 'DM Mono', monospace; --serif: 'DM Serif Display', serif; --sans: 'DM Sans', sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--ink); font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  .site-wrap { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+  aside { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: var(--bg); border-right: 1px solid var(--rule); display: flex; flex-direction: column; padding: 3rem 2rem 2rem; }
+  .photo-wrap { width: 88px; height: 88px; border-radius: 50%; overflow: hidden; border: 2px solid var(--rule); margin-bottom: 1.5rem; flex-shrink: 0; }
+  .photo-wrap img { width: 100%; height: 100%; object-fit: cover; }
+  .name { font-family: var(--serif); font-size: 22px; letter-spacing: -0.02em; line-height: 1.2; color: var(--ink); margin-bottom: 0.3rem; }
+  .title-line { font-size: 12px; font-weight: 400; color: var(--ink-mid); letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.5; margin-bottom: 2rem; }
+  nav { flex: 1; }
+  nav a { display: block; font-size: 13px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; padding: 6px 0; transition: color 0.15s; }
+  nav a:hover, nav a.active { color: var(--accent); }
+  .sidebar-links { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 8px; }
+  .sidebar-links a { font-family: var(--mono); font-size: 11px; color: var(--ink-light); text-decoration: none; transition: color 0.15s; display: flex; align-items: center; gap: 6px; }
+  .sidebar-links a:hover { color: var(--accent); }
+  .sidebar-links a::before { content: '↗'; font-size: 10px; }
+  .sidebar-footer { margin-top: auto; padding-top: 2rem; font-size: 11px; color: var(--ink-light); font-family: var(--mono); }
+  main { padding: 4rem 5rem 6rem 5.5rem; max-width: 860px; }
+  section { margin-bottom: 4.5rem; }
+  .section-label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); margin-bottom: 2rem; display: flex; align-items: center; gap: 12px; }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+
+  .page-title { font-family: var(--serif); font-size: 36px; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 0.75rem; font-weight: 400; }
+  .page-sub { font-size: 15px; color: var(--ink-mid); max-width: 560px; line-height: 1.7; margin-bottom: 3.5rem; }
+
+  /* Research areas */
+  .area-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 3rem; }
+  .area-card {
+    border: 1px solid var(--rule); border-radius: 4px; padding: 20px 22px;
+    background: var(--bg-panel); transition: border-color 0.15s;
+  }
+  .area-card:hover { border-color: var(--accent); }
+  .area-icon { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-warm); margin-bottom: 8px; }
+  .area-name { font-size: 15px; font-weight: 500; color: var(--ink); margin-bottom: 6px; }
+  .area-desc { font-size: 13px; color: var(--ink-mid); line-height: 1.55; }
+
+  /* Projects */
+  .project-list { display: flex; flex-direction: column; gap: 0; }
+  .project-item {
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 1rem; align-items: start;
+    padding: 20px 0; border-bottom: 1px solid var(--rule);
+  }
+  .project-item:first-child { border-top: 1px solid var(--rule); }
+  .project-name { font-size: 15px; font-weight: 500; color: var(--ink); margin-bottom: 4px; line-height: 1.35; }
+  .project-funder { font-family: var(--mono); font-size: 11px; color: var(--ink-light); letter-spacing: 0.05em; text-transform: uppercase; }
+  .project-link {
+    font-family: var(--mono); font-size: 11px; color: var(--accent); text-decoration: none;
+    border: 1px solid var(--rule); padding: 5px 10px; border-radius: 3px; white-space: nowrap;
+    transition: border-color 0.15s; margin-top: 3px;
+  }
+  .project-link:hover { border-color: var(--accent); }
+
+  /* GPU box */
+  .resource-box {
+    border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+    padding: 16px 20px; border-radius: 0 4px 4px 0; background: var(--bg-panel);
+    display: flex; align-items: center; gap: 16px;
+  }
+  .resource-icon { font-family: var(--mono); font-size: 22px; color: var(--accent); }
+  .resource-name { font-size: 14px; font-weight: 500; color: var(--ink); margin-bottom: 2px; }
+  .resource-meta { font-size: 12px; color: var(--ink-light); font-family: var(--mono); }
+
+  /* Collab */
+  .collab-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .collab-tag {
+    font-size: 13px; color: var(--ink-mid); border: 1px solid var(--rule);
+    padding: 6px 14px; border-radius: 3px; background: transparent; transition: all 0.15s;
+  }
+  .collab-tag:hover { border-color: var(--accent); color: var(--accent); background: var(--bg-panel); }
+
+  @media (max-width: 900px) {
+    .site-wrap { grid-template-columns: 1fr; }
+    aside { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--rule); padding: 2rem 1.5rem 1.5rem; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 1.5rem; }
+    .photo-wrap { margin-bottom: 0; }
+    .sidebar-footer, .sidebar-links { display: none; }
+    nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    nav a { padding: 0; }
+    main { padding: 2.5rem 1.5rem 4rem; }
+    .area-grid { grid-template-columns: 1fr; }
+    .page-title { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="site-wrap">
+  <aside>
+    <div class="photo-wrap">
+      <img src="https://juntaochen1.github.io/images/Photo_Chen.jpg" alt="Juntao Chen">
+    </div>
+    <div class="name">Juntao Chen</div>
+    <div class="title-line">Assistant Professor<br>Fordham University</div>
+        <nav>
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="students.html">Group</a>
+      <a href="bio.html">Bio</a>
+    </nav>
+    <div class="sidebar-links">
+      <a href="https://scholar.google.com/citations?user=NUsOZVwAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Juntao_Chen3">ResearchGate</a>
+      
+    </div>
+    <div class="sidebar-footer">New York, NY</div>
+  </aside>
+
+  <main>
+    <h1 class="page-title">Research</h1>
+    <p class="page-sub">My group works on making AI-driven systems trustworthy — provably secure, resilient under adversarial conditions, and safe when deployed in the physical world.</p>
+
+    <!-- Research areas -->
+    <section>
+      <div class="section-label">Research Areas</div>
+      <div class="area-grid">
+        <div class="area-card">
+          <div class="area-icon">01 · CPS Security</div>
+          <div class="area-name">Cyber-Physical Systems Security</div>
+          <div class="area-desc">Strategic defense of interconnected infrastructure — power grids, IoT networks, autonomous systems — under intelligent adversaries using game-theoretic and control-theoretic tools.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">02 · Quantum</div>
+          <div class="area-name">Quantum AI &amp; Security</div>
+          <div class="area-desc">Security and privacy of quantum computing systems; adversarially robust quantum machine learning; resilient quantum learning under noise and attacks.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">03 · RL</div>
+          <div class="area-name">Reinforcement Learning</div>
+          <div class="area-desc">Safe and trustworthy RL for sequential decision making — online representation learning, Stackelberg coupling, and adversarial RL in multi-agent environments.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">04 · Game Theory</div>
+          <div class="area-name">Game &amp; Decision Theory</div>
+          <div class="area-desc">Dynamic and differential games for security, mechanism design, contract theory, and optimal resource allocation under uncertainty and bounded rationality.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">05 · Networks</div>
+          <div class="area-name">Network Resilience</div>
+          <div class="area-desc">Distributed optimization and resilience of large-scale interdependent networks, including energy systems, communication infrastructure, and multi-agent systems.</div>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">06 · Wireless</div>
+          <div class="area-name">Programmable Wireless Systems</div>
+          <div class="area-desc">Formal-assurance-based policy management for domain-specific programmable wireless architectures; trustworthy AI for next-generation communication infrastructure.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NSF Projects -->
+    <section>
+      <div class="section-label">Funded Projects</div>
+      <div class="project-list">
+        <div class="project-item">
+          <div>
+            <div class="project-name">Trustworthy Programmable Wireless Infrastructure</div>
+            <div class="project-funder">NSF · 2025</div>
+          </div>
+          <a class="project-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2530916">NSF ↗</a>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">Resilient Quantum Learning Systems</div>
+            <div class="project-funder">NSF · 2024</div>
+          </div>
+          <a class="project-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2343535">NSF ↗</a>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">System-Level Quantum Computing Security and Privacy</div>
+            <div class="project-funder">NSF · 2023</div>
+          </div>
+          <a class="project-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2335788">NSF ↗</a>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">Cyber-Physical Energy Systems Security and Resilience under Strategic IoT-Based Cyberattacks</div>
+            <div class="project-funder">NSF · 2022</div>
+          </div>
+          <a class="project-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2138956">NSF ↗</a>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">High-Performance GPU Cluster (NVIDIA H200) for Multidisciplinary Research</div>
+            <div class="project-funder">NSF MRI · 2025</div>
+          </div>
+          <a class="project-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2408229">NSF ↗</a>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">Trustworthy AI for Multi-Agent Systems</div>
+            <div class="project-funder">Fordham–IBM Research Fellowship</div>
+          </div>
+        </div>
+        <div class="project-item">
+          <div>
+            <div class="project-name">Dynamic Adversarial AI</div>
+            <div class="project-funder">Fordham–IBM Research Fellowship</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>
